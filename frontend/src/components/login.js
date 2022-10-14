@@ -47,7 +47,7 @@ function Login() {
       window.alert("Login Successfully");
       setUserToken(data);
     //   alert(userToken);
-      history.push("/about");
+      history.push("/mint");
       
     }
   }
