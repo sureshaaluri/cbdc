@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/client.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/format.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/format.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/interface.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/format.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/format.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/interface.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

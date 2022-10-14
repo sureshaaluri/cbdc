@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c" "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/secp256k1/src/secp256k1.c.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/secp256k1/src/secp256k1.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

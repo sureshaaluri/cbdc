@@ -32,9 +32,9 @@ src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/client.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/async_interface.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/client.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/client.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/async_interface.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/client.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/client.hpp
 src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/format.o
  ../3rdparty/crypto/sha256.h
  ../3rdparty/crypto/siphash.h
@@ -63,9 +63,9 @@ src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/format.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/format.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/format.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/format.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/format.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.hpp
 src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/interface.o
  ../3rdparty/crypto/sha256.h
  ../3rdparty/crypto/siphash.h
@@ -93,5 +93,5 @@ src/uhs/sentinel/CMakeFiles/sentinel_interface.dir/interface.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.hpp

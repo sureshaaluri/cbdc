@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/uhs/transaction/CMakeFiles/transaction.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/CMakeFiles/transaction.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/transaction/CMakeFiles/transaction.dir/rule
 .PHONY : src/uhs/transaction/CMakeFiles/transaction.dir/rule
 
 # Convenience name for target.
@@ -122,67 +122,67 @@ transaction: src/uhs/transaction/CMakeFiles/transaction.dir/rule
 
 # fast build rule for target.
 transaction/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/build
 .PHONY : transaction/fast
 
 # target to build an object file
 messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.o
 .PHONY : messages.o
 
 # target to preprocess a source file
 messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.i
 .PHONY : messages.i
 
 # target to generate assembly for a file
 messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/messages.s
 .PHONY : messages.s
 
 # target to build an object file
 transaction.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o
 .PHONY : transaction.o
 
 # target to preprocess a source file
 transaction.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.i
 .PHONY : transaction.i
 
 # target to generate assembly for a file
 transaction.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/transaction.s
 .PHONY : transaction.s
 
 # target to build an object file
 validation.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.o
 .PHONY : validation.o
 
 # target to preprocess a source file
 validation.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.i
 .PHONY : validation.i
 
 # target to generate assembly for a file
 validation.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/validation.s
 .PHONY : validation.s
 
 # target to build an object file
 wallet.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o
 .PHONY : wallet.o
 
 # target to preprocess a source file
 wallet.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.i
 .PHONY : wallet.i
 
 # target to generate assembly for a file
 wallet.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/transaction/CMakeFiles/transaction.dir/build.make src/uhs/transaction/CMakeFiles/transaction.dir/wallet.s
 .PHONY : wallet.s
 
 # Help Target
@@ -217,6 +217,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

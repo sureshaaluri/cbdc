@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/client.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/controller.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/distributed_tx.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/format.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/server.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/state_machine.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/controller.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/distributed_tx.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/format.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/server.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator/CMakeFiles/coordinator.dir/state_machine.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

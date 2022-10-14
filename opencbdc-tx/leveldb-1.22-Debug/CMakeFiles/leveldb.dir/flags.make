@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = -DLEVELDB_COMPILE_LIBRARY -DLEVELDB_PLATFORM_POSIX=1
 
-CXX_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include -I/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug 
+CXX_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug 
 

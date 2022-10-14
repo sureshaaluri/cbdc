@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Utility rule file for secp256k1_genctx_run.
 
@@ -57,9 +57,9 @@ include 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/progress.make
 
 
 3rdparty/src/ecmult_static_context.h:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/ecmult_static_context.h"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty && mkdir -p src
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty && /home/suresh/CBDC/opencbdc-tx/build/3rdparty/secp256k1_genctx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating src/ecmult_static_context.h"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty && mkdir -p src
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty && /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/secp256k1_genctx
 
 secp256k1_genctx_run: 3rdparty/CMakeFiles/secp256k1_genctx_run
 secp256k1_genctx_run: 3rdparty/src/ecmult_static_context.h
@@ -73,10 +73,10 @@ secp256k1_genctx_run: 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/build.make
 .PHONY : 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/build
 
 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/secp256k1_genctx_run.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/secp256k1_genctx_run.dir/cmake_clean.cmake
 .PHONY : 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/clean
 
 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/3rdparty /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/3rdparty /home/suresh/CBDC/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1_genctx_run.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1_genctx_run.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/CMakeFiles/secp256k1_genctx_run.dir/depend
 

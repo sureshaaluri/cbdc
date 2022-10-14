@@ -56,7 +56,7 @@ cstdlib
 cstdint
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp
 crypto/sha256.h
 -
 crypto/common.h
@@ -68,7 +68,7 @@ string.h
 compat/cpuid.h
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp
 stdint.h
 -
 immintrin.h
@@ -76,19 +76,19 @@ immintrin.h
 crypto/common.h
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp
 stdint.h
 -
 immintrin.h
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp
 stdint.h
 -
 stdlib.h
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp
 stdint.h
 -
 immintrin.h
@@ -96,7 +96,7 @@ immintrin.h
 crypto/common.h
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp
 cassert
 -
 crypto/siphash.h

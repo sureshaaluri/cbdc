@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp" "/home/suresh/CBDC/opencbdc-tx/build/tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,12 +25,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

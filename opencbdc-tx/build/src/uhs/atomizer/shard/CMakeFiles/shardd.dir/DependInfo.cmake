@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shardd.dir/shardd.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shardd.dir/shardd.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,16 +23,16 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shard.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
-  "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shard.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/CMakeFiles/secp256k1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

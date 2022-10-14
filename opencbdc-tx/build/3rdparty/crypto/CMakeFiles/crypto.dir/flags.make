@@ -6,7 +6,7 @@ CXX_FLAGS =  -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/. 
+CXX_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/. 
 
 # Custom flags: 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o_FLAGS = -mavx -mavx2
 

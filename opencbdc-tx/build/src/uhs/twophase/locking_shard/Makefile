@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/rule
 .PHONY : src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ locking-shardd: src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/rul
 
 # fast build rule for target.
 locking-shardd/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build
 .PHONY : locking-shardd/fast
 
 # Convenience name for target.
 src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/rule
 .PHONY : src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/rule
 
 # Convenience name for target.
@@ -137,157 +137,157 @@ locking_shard: src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/rule
 
 # fast build rule for target.
 locking_shard/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build
 .PHONY : locking_shard/fast
 
 # target to build an object file
 client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.o
 .PHONY : client.o
 
 # target to preprocess a source file
 client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.i
 .PHONY : client.i
 
 # target to generate assembly for a file
 client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/client.s
 .PHONY : client.s
 
 # target to build an object file
 controller.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.o
 .PHONY : controller.o
 
 # target to preprocess a source file
 controller.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.i
 .PHONY : controller.i
 
 # target to generate assembly for a file
 controller.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/controller.s
 .PHONY : controller.s
 
 # target to build an object file
 format.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.o
 .PHONY : format.o
 
 # target to preprocess a source file
 format.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.i
 .PHONY : format.i
 
 # target to generate assembly for a file
 format.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/format.s
 .PHONY : format.s
 
 # target to build an object file
 interface.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.o
 .PHONY : interface.o
 
 # target to preprocess a source file
 interface.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.i
 .PHONY : interface.i
 
 # target to generate assembly for a file
 interface.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/interface.s
 .PHONY : interface.s
 
 # target to build an object file
 locking_shard.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.o
 .PHONY : locking_shard.o
 
 # target to preprocess a source file
 locking_shard.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.i
 .PHONY : locking_shard.i
 
 # target to generate assembly for a file
 locking_shard.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/locking_shard.s
 .PHONY : locking_shard.s
 
 # target to build an object file
 locking_shardd.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.o
 .PHONY : locking_shardd.o
 
 # target to preprocess a source file
 locking_shardd.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.i
 .PHONY : locking_shardd.i
 
 # target to generate assembly for a file
 locking_shardd.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking-shardd.dir/locking_shardd.s
 .PHONY : locking_shardd.s
 
 # target to build an object file
 messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.o
 .PHONY : messages.o
 
 # target to preprocess a source file
 messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.i
 .PHONY : messages.i
 
 # target to generate assembly for a file
 messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/messages.s
 .PHONY : messages.s
 
 # target to build an object file
 state_machine.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.o
 .PHONY : state_machine.o
 
 # target to preprocess a source file
 state_machine.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.i
 .PHONY : state_machine.i
 
 # target to generate assembly for a file
 state_machine.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/state_machine.s
 .PHONY : state_machine.s
 
 # target to build an object file
 status_client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.o
 .PHONY : status_client.o
 
 # target to preprocess a source file
 status_client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.i
 .PHONY : status_client.i
 
 # target to generate assembly for a file
 status_client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_client.s
 .PHONY : status_client.s
 
 # target to build an object file
 status_server.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.o
 .PHONY : status_server.o
 
 # target to preprocess a source file
 status_server.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.i
 .PHONY : status_server.i
 
 # target to generate assembly for a file
 status_server.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/build.make src/uhs/twophase/locking_shard/CMakeFiles/locking_shard.dir/status_server.s
 .PHONY : status_server.s
 
 # Help Target
@@ -341,6 +341,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

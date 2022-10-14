@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/util/raft/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/util/raft/CMakeFiles/raft.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/CMakeFiles/raft.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/raft/CMakeFiles/raft.dir/rule
 .PHONY : src/util/raft/CMakeFiles/raft.dir/rule
 
 # Convenience name for target.
@@ -122,112 +122,112 @@ raft: src/util/raft/CMakeFiles/raft.dir/rule
 
 # fast build rule for target.
 raft/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/build
 .PHONY : raft/fast
 
 # target to build an object file
 console_logger.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.o
 .PHONY : console_logger.o
 
 # target to preprocess a source file
 console_logger.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.i
 .PHONY : console_logger.i
 
 # target to generate assembly for a file
 console_logger.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/console_logger.s
 .PHONY : console_logger.s
 
 # target to build an object file
 index_comparator.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.o
 .PHONY : index_comparator.o
 
 # target to preprocess a source file
 index_comparator.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.i
 .PHONY : index_comparator.i
 
 # target to generate assembly for a file
 index_comparator.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/index_comparator.s
 .PHONY : index_comparator.s
 
 # target to build an object file
 log_store.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.o
 .PHONY : log_store.o
 
 # target to preprocess a source file
 log_store.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.i
 .PHONY : log_store.i
 
 # target to generate assembly for a file
 log_store.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/log_store.s
 .PHONY : log_store.s
 
 # target to build an object file
 messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.o
 .PHONY : messages.o
 
 # target to preprocess a source file
 messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.i
 .PHONY : messages.i
 
 # target to generate assembly for a file
 messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/messages.s
 .PHONY : messages.s
 
 # target to build an object file
 node.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.o
 .PHONY : node.o
 
 # target to preprocess a source file
 node.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.i
 .PHONY : node.i
 
 # target to generate assembly for a file
 node.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/node.s
 .PHONY : node.s
 
 # target to build an object file
 serialization.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.o
 .PHONY : serialization.o
 
 # target to preprocess a source file
 serialization.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.i
 .PHONY : serialization.i
 
 # target to generate assembly for a file
 serialization.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/serialization.s
 .PHONY : serialization.s
 
 # target to build an object file
 state_manager.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.o
 .PHONY : state_manager.o
 
 # target to preprocess a source file
 state_manager.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.i
 .PHONY : state_manager.i
 
 # target to generate assembly for a file
 state_manager.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/raft/CMakeFiles/raft.dir/build.make src/util/raft/CMakeFiles/raft.dir/state_manager.s
 .PHONY : state_manager.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -20,10 +20,10 @@ src/uhs/transaction/CMakeFiles/transaction.dir/messages.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.hpp
 src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o
  ../3rdparty/crypto/sha256.h
  ../3rdparty/crypto/siphash.h
@@ -43,10 +43,10 @@ src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.hpp
 src/uhs/transaction/CMakeFiles/transaction.dir/validation.o
  ../3rdparty/crypto/sha256.h
  ../3rdparty/crypto/siphash.h
@@ -66,9 +66,9 @@ src/uhs/transaction/CMakeFiles/transaction.dir/validation.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.hpp
 src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o
  ../3rdparty/crypto/sha256.h
  ../3rdparty/crypto/siphash.h
@@ -95,5 +95,5 @@ src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/stream_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.hpp

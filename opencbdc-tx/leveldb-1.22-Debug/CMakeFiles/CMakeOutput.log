@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/3.16.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/3.16.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,27 +23,27 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_19c15/fast && /usr/bin/make -f CMakeFiles/cmTC_19c15.dir/build.make CMakeFiles/cmTC_19c15.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_19c15.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_19c15.dir/testCCompiler.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/testCCompiler.c
+/usr/bin/cc    -o CMakeFiles/cmTC_19c15.dir/testCCompiler.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/testCCompiler.c
 Linking C executable cmTC_19c15
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19c15.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_19c15.dir/testCCompiler.c.o  -o cmTC_19c15 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_ce498/fast && /usr/bin/make -f CMakeFiles/cmTC_ce498.dir/build.make CMakeFiles/cmTC_ce498.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_ce498.dir/CMakeCCompilerABI.c.o
 /usr/bin/cc   -v -o CMakeFiles/cmTC_ce498.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
 Using built-in specs.
@@ -98,7 +98,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ce498' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccKclLsZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_ce498 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_ce498.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ce498' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -119,10 +119,10 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_ce498/fast && /usr/bin/make -f CMakeFiles/cmTC_ce498.dir/build.make CMakeFiles/cmTC_ce498.dir/build]
-  ignore line: [make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_ce498.dir/CMakeCCompilerABI.c.o]
   ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_ce498.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
@@ -238,24 +238,24 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_5e331/fast && /usr/bin/make -f CMakeFiles/cmTC_5e331.dir/build.make CMakeFiles/cmTC_5e331.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_5e331.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_5e331.dir/testCXXCompiler.cxx.o -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/usr/bin/c++     -o CMakeFiles/cmTC_5e331.dir/testCXXCompiler.cxx.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
 Linking CXX executable cmTC_5e331
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e331.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_5e331.dir/testCXXCompiler.cxx.o  -o cmTC_5e331 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_a0b30/fast && /usr/bin/make -f CMakeFiles/cmTC_a0b30.dir/build.make CMakeFiles/cmTC_a0b30.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_a0b30.dir/CMakeCXXCompilerABI.cpp.o
 /usr/bin/c++    -v -o CMakeFiles/cmTC_a0b30.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
@@ -314,7 +314,7 @@ LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/..
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b30' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccghamjY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a0b30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_a0b30.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b30' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
@@ -341,10 +341,10 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/make cmTC_a0b30/fast && /usr/bin/make -f CMakeFiles/cmTC_a0b30.dir/build.make CMakeFiles/cmTC_a0b30.dir/build]
-  ignore line: [make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_a0b30.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_a0b30.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
@@ -460,72 +460,72 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_b34f4/fast && /usr/bin/make -f CMakeFiles/cmTC_b34f4.dir/build.make CMakeFiles/cmTC_b34f4.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_b34f4.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b34f4.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b34f4.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 Linking C executable cmTC_b34f4
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b34f4.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_b34f4.dir/CheckIncludeFile.c.o  -o cmTC_b34f4 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_8125b/fast && /usr/bin/make -f CMakeFiles/cmTC_8125b.dir/build.make CMakeFiles/cmTC_8125b.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_8125b.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8125b.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_8125b.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 Linking C executable cmTC_8125b
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8125b.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_8125b.dir/CheckIncludeFile.c.o  -o cmTC_8125b 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_2ccdd/fast && /usr/bin/make -f CMakeFiles/cmTC_2ccdd.dir/build.make CMakeFiles/cmTC_2ccdd.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_2ccdd.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2ccdd.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_2ccdd.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 Linking C executable cmTC_2ccdd
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccdd.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_2ccdd.dir/CheckIncludeFile.c.o  -o cmTC_2ccdd 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining size of unsigned short passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_ac6a8/fast && /usr/bin/make -f CMakeFiles/cmTC_ac6a8.dir/build.make CMakeFiles/cmTC_ac6a8.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_ac6a8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ac6a8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ac6a8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
 Linking C executable cmTC_ac6a8
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac6a8.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_ac6a8.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_ac6a8 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_30844/fast && /usr/bin/make -f CMakeFiles/cmTC_30844.dir/build.make CMakeFiles/cmTC_30844.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_30844.dir/TestEndianess.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_30844.dir/TestEndianess.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/TestEndianess.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_30844.dir/TestEndianess.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/TestEndianess.c
 Linking C executable cmTC_30844
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30844.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_30844.dir/TestEndianess.c.o  -o cmTC_30844 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 TestEndianess.c:
@@ -555,33 +555,33 @@ int main(int argc, char *argv[])
 
 
 Determining if the include file unistd.h exists passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_4410e/fast && /usr/bin/make -f CMakeFiles/cmTC_4410e.dir/build.make CMakeFiles/cmTC_4410e.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_4410e.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4410e.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4410e.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 Linking C executable cmTC_4410e
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4410e.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_4410e.dir/CheckIncludeFile.c.o  -o cmTC_4410e 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the fdatasync exist passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_f745a/fast && /usr/bin/make -f CMakeFiles/cmTC_f745a.dir/build.make CMakeFiles/cmTC_f745a.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_f745a.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f745a.dir/CheckSymbolExists.cxx.o -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_f745a.dir/CheckSymbolExists.cxx.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
 Linking CXX executable cmTC_f745a
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f745a.dir/link.txt --verbose=1
 /usr/bin/c++       CMakeFiles/cmTC_f745a.dir/CheckSymbolExists.cxx.o  -o cmTC_f745a 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
-File /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <unistd.h>
 
@@ -596,16 +596,16 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C++ SOURCE FILE Test HAVE_CXX17_HAS_INCLUDE succeeded with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_4a30a/fast && /usr/bin/make -f CMakeFiles/cmTC_4a30a.dir/build.make CMakeFiles/cmTC_4a30a.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_4a30a.dir/src.cxx.o
-/usr/bin/c++    -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_4a30a.dir/src.cxx.o -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx
+/usr/bin/c++    -DHAVE_CXX17_HAS_INCLUDE   -std=c++11 -o CMakeFiles/cmTC_4a30a.dir/src.cxx.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx
 Linking CXX executable cmTC_4a30a
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a30a.dir/link.txt --verbose=1
 /usr/bin/c++   -DHAVE_CXX17_HAS_INCLUDE    CMakeFiles/cmTC_4a30a.dir/src.cxx.o  -o cmTC_4a30a 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 Source file was:
@@ -616,30 +616,30 @@ Source file was:
 int main() { std::string str; return 0; }
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_be01d/fast && /usr/bin/make -f CMakeFiles/cmTC_be01d.dir/build.make CMakeFiles/cmTC_be01d.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_be01d.dir/CheckIncludeFile.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_be01d.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_be01d.dir/CheckIncludeFile.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 Linking C executable cmTC_be01d
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be01d.dir/link.txt --verbose=1
 /usr/bin/cc      CMakeFiles/cmTC_be01d.dir/CheckIncludeFile.c.o  -o cmTC_be01d 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/make cmTC_0c455/fast && /usr/bin/make -f CMakeFiles/cmTC_0c455.dir/build.make CMakeFiles/cmTC_0c455.dir/build
-make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Entering directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_0c455.dir/CheckFunctionExists.c.o
 /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_0c455.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
 Linking C executable cmTC_0c455
 /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c455.dir/link.txt --verbose=1
 /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0c455.dir/CheckFunctionExists.c.o  -o cmTC_0c455  -lpthread 
-make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
 
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/uhs/atomizer/shard/CMakeFiles/shard.dir/depend.make
@@ -59,29 +59,29 @@ include src/uhs/atomizer/shard/CMakeFiles/shard.dir/flags.make
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.o: src/uhs/atomizer/shard/CMakeFiles/shard.dir/flags.make
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.o: ../src/uhs/atomizer/shard/shard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shard.dir/shard.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shard.dir/shard.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shard.dir/shard.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp > CMakeFiles/shard.dir/shard.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp > CMakeFiles/shard.dir/shard.i
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/shard.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shard.dir/shard.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp -o CMakeFiles/shard.dir/shard.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp -o CMakeFiles/shard.dir/shard.s
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.o: src/uhs/atomizer/shard/CMakeFiles/shard.dir/flags.make
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.o: ../src/uhs/atomizer/shard/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shard.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shard.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shard.dir/controller.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp > CMakeFiles/shard.dir/controller.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp > CMakeFiles/shard.dir/controller.i
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shard.dir/controller.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp -o CMakeFiles/shard.dir/controller.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp -o CMakeFiles/shard.dir/controller.s
 
 # Object files for target shard
 shard_OBJECTS = \
@@ -95,9 +95,9 @@ src/uhs/atomizer/shard/libshard.a: src/uhs/atomizer/shard/CMakeFiles/shard.dir/s
 src/uhs/atomizer/shard/libshard.a: src/uhs/atomizer/shard/CMakeFiles/shard.dir/controller.o
 src/uhs/atomizer/shard/libshard.a: src/uhs/atomizer/shard/CMakeFiles/shard.dir/build.make
 src/uhs/atomizer/shard/libshard.a: src/uhs/atomizer/shard/CMakeFiles/shard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libshard.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -P CMakeFiles/shard.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shard.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libshard.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -P CMakeFiles/shard.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/build: src/uhs/atomizer/shard/libshard.a
@@ -105,10 +105,10 @@ src/uhs/atomizer/shard/CMakeFiles/shard.dir/build: src/uhs/atomizer/shard/libsha
 .PHONY : src/uhs/atomizer/shard/CMakeFiles/shard.dir/build
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -P CMakeFiles/shard.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard && $(CMAKE_COMMAND) -P CMakeFiles/shard.dir/cmake_clean.cmake
 .PHONY : src/uhs/atomizer/shard/CMakeFiles/shard.dir/clean
 
 src/uhs/atomizer/shard/CMakeFiles/shard.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shard.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard/CMakeFiles/shard.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/uhs/atomizer/shard/CMakeFiles/shard.dir/depend
 

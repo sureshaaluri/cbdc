@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/tools/bench/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/bench/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/rule
 .PHONY : tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ atomizer-cli-watchtower: tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/rule
 
 # fast build rule for target.
 atomizer-cli-watchtower/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build
 .PHONY : atomizer-cli-watchtower/fast
 
 # Convenience name for target.
 tools/bench/CMakeFiles/twophase-gen.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/CMakeFiles/twophase-gen.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/bench/CMakeFiles/twophase-gen.dir/rule
 .PHONY : tools/bench/CMakeFiles/twophase-gen.dir/rule
 
 # Convenience name for target.
@@ -137,37 +137,37 @@ twophase-gen: tools/bench/CMakeFiles/twophase-gen.dir/rule
 
 # fast build rule for target.
 twophase-gen/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/build
 .PHONY : twophase-gen/fast
 
 # target to build an object file
 atomizer-cli-watchtower.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.o
 .PHONY : atomizer-cli-watchtower.o
 
 # target to preprocess a source file
 atomizer-cli-watchtower.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.i
 .PHONY : atomizer-cli-watchtower.i
 
 # target to generate assembly for a file
 atomizer-cli-watchtower.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/build.make tools/bench/CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.s
 .PHONY : atomizer-cli-watchtower.s
 
 # target to build an object file
 twophase_gen.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.o
 .PHONY : twophase_gen.o
 
 # target to preprocess a source file
 twophase_gen.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.i
 .PHONY : twophase_gen.i
 
 # target to generate assembly for a file
 twophase_gen.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/bench/CMakeFiles/twophase-gen.dir/build.make tools/bench/CMakeFiles/twophase-gen.dir/twophase_gen.s
 .PHONY : twophase_gen.s
 
 # Help Target
@@ -197,6 +197,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

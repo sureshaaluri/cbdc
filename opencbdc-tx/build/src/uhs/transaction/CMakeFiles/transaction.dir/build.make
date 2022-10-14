@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/uhs/transaction/CMakeFiles/transaction.dir/depend.make
@@ -59,55 +59,55 @@ include src/uhs/transaction/CMakeFiles/transaction.dir/flags.make
 
 src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o: src/uhs/transaction/CMakeFiles/transaction.dir/flags.make
 src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o: ../src/uhs/transaction/transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/transaction.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/transaction.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp
 
 src/uhs/transaction/CMakeFiles/transaction.dir/transaction.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transaction.dir/transaction.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp > CMakeFiles/transaction.dir/transaction.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp > CMakeFiles/transaction.dir/transaction.i
 
 src/uhs/transaction/CMakeFiles/transaction.dir/transaction.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transaction.dir/transaction.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp -o CMakeFiles/transaction.dir/transaction.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp -o CMakeFiles/transaction.dir/transaction.s
 
 src/uhs/transaction/CMakeFiles/transaction.dir/messages.o: src/uhs/transaction/CMakeFiles/transaction.dir/flags.make
 src/uhs/transaction/CMakeFiles/transaction.dir/messages.o: ../src/uhs/transaction/messages.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/messages.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/messages.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp
 
 src/uhs/transaction/CMakeFiles/transaction.dir/messages.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transaction.dir/messages.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp > CMakeFiles/transaction.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp > CMakeFiles/transaction.dir/messages.i
 
 src/uhs/transaction/CMakeFiles/transaction.dir/messages.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transaction.dir/messages.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp -o CMakeFiles/transaction.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp -o CMakeFiles/transaction.dir/messages.s
 
 src/uhs/transaction/CMakeFiles/transaction.dir/validation.o: src/uhs/transaction/CMakeFiles/transaction.dir/flags.make
 src/uhs/transaction/CMakeFiles/transaction.dir/validation.o: ../src/uhs/transaction/validation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/validation.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/validation.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/validation.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/validation.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp
 
 src/uhs/transaction/CMakeFiles/transaction.dir/validation.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transaction.dir/validation.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp > CMakeFiles/transaction.dir/validation.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp > CMakeFiles/transaction.dir/validation.i
 
 src/uhs/transaction/CMakeFiles/transaction.dir/validation.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transaction.dir/validation.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp -o CMakeFiles/transaction.dir/validation.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp -o CMakeFiles/transaction.dir/validation.s
 
 src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o: src/uhs/transaction/CMakeFiles/transaction.dir/flags.make
 src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o: ../src/uhs/transaction/wallet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/wallet.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transaction.dir/wallet.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp
 
 src/uhs/transaction/CMakeFiles/transaction.dir/wallet.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transaction.dir/wallet.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp > CMakeFiles/transaction.dir/wallet.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp > CMakeFiles/transaction.dir/wallet.i
 
 src/uhs/transaction/CMakeFiles/transaction.dir/wallet.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transaction.dir/wallet.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp -o CMakeFiles/transaction.dir/wallet.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp -o CMakeFiles/transaction.dir/wallet.s
 
 # Object files for target transaction
 transaction_OBJECTS = \
@@ -125,9 +125,9 @@ src/uhs/transaction/libtransaction.a: src/uhs/transaction/CMakeFiles/transaction
 src/uhs/transaction/libtransaction.a: src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o
 src/uhs/transaction/libtransaction.a: src/uhs/transaction/CMakeFiles/transaction.dir/build.make
 src/uhs/transaction/libtransaction.a: src/uhs/transaction/CMakeFiles/transaction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtransaction.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -P CMakeFiles/transaction.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transaction.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtransaction.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -P CMakeFiles/transaction.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transaction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/uhs/transaction/CMakeFiles/transaction.dir/build: src/uhs/transaction/libtransaction.a
@@ -135,10 +135,10 @@ src/uhs/transaction/CMakeFiles/transaction.dir/build: src/uhs/transaction/libtra
 .PHONY : src/uhs/transaction/CMakeFiles/transaction.dir/build
 
 src/uhs/transaction/CMakeFiles/transaction.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -P CMakeFiles/transaction.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction && $(CMAKE_COMMAND) -P CMakeFiles/transaction.dir/cmake_clean.cmake
 .PHONY : src/uhs/transaction/CMakeFiles/transaction.dir/clean
 
 src/uhs/transaction/CMakeFiles/transaction.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction /home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/uhs/transaction/CMakeFiles/transaction.dir/depend
 

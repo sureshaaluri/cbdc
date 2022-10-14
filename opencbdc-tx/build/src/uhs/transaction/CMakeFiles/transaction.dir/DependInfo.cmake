@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/messages.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/validation.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/messages.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/transaction.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/validation.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction/CMakeFiles/transaction.dir/wallet.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

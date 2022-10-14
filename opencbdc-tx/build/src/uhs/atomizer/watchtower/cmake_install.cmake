@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

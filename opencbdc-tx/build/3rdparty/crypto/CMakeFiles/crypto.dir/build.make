@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include 3rdparty/crypto/CMakeFiles/crypto.dir/depend.make
@@ -59,81 +59,81 @@ include 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o: ../3rdparty/crypto/sha256_avx2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -o CMakeFiles/crypto.dir/sha256_avx2.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -o CMakeFiles/crypto.dir/sha256_avx2.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/sha256_avx2.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp > CMakeFiles/crypto.dir/sha256_avx2.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp > CMakeFiles/crypto.dir/sha256_avx2.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/sha256_avx2.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp -o CMakeFiles/crypto.dir/sha256_avx2.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 $(CXX_INCLUDES) $(CXX_FLAGS) -mavx -mavx2 -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp -o CMakeFiles/crypto.dir/sha256_avx2.s
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o: ../3rdparty/crypto/sha256_shani.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -o CMakeFiles/crypto.dir/sha256_shani.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -o CMakeFiles/crypto.dir/sha256_shani.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/sha256_shani.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp > CMakeFiles/crypto.dir/sha256_shani.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp > CMakeFiles/crypto.dir/sha256_shani.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/sha256_shani.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp -o CMakeFiles/crypto.dir/sha256_shani.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SHANI $(CXX_INCLUDES) $(CXX_FLAGS) -msse4 -msha -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp -o CMakeFiles/crypto.dir/sha256_shani.s
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o: ../3rdparty/crypto/sha256_sse4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/sha256_sse4.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/sha256_sse4.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/sha256_sse4.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp > CMakeFiles/crypto.dir/sha256_sse4.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp > CMakeFiles/crypto.dir/sha256_sse4.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/sha256_sse4.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp -o CMakeFiles/crypto.dir/sha256_sse4.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp -o CMakeFiles/crypto.dir/sha256_sse4.s
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o: ../3rdparty/crypto/sha256_sse41.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -o CMakeFiles/crypto.dir/sha256_sse41.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -o CMakeFiles/crypto.dir/sha256_sse41.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/sha256_sse41.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp > CMakeFiles/crypto.dir/sha256_sse41.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp > CMakeFiles/crypto.dir/sha256_sse41.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/sha256_sse41.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp -o CMakeFiles/crypto.dir/sha256_sse41.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_SSE41 $(CXX_INCLUDES) $(CXX_FLAGS) -msse4.1 -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp -o CMakeFiles/crypto.dir/sha256_sse41.s
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o: ../3rdparty/crypto/sha256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/sha256.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/sha256.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/sha256.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp > CMakeFiles/crypto.dir/sha256.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp > CMakeFiles/crypto.dir/sha256.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/sha256.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp -o CMakeFiles/crypto.dir/sha256.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp -o CMakeFiles/crypto.dir/sha256.s
 
 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o: 3rdparty/crypto/CMakeFiles/crypto.dir/flags.make
 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o: ../3rdparty/crypto/siphash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/siphash.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crypto.dir/siphash.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp
 
 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/siphash.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp > CMakeFiles/crypto.dir/siphash.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp > CMakeFiles/crypto.dir/siphash.i
 
 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/siphash.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp -o CMakeFiles/crypto.dir/siphash.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp -o CMakeFiles/crypto.dir/siphash.s
 
 # Object files for target crypto
 crypto_OBJECTS = \
@@ -155,9 +155,9 @@ crypto_EXTERNAL_OBJECTS =
 3rdparty/crypto/libcrypto.a: 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o
 3rdparty/crypto/libcrypto.a: 3rdparty/crypto/CMakeFiles/crypto.dir/build.make
 3rdparty/crypto/libcrypto.a: 3rdparty/crypto/CMakeFiles/crypto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcrypto.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libcrypto.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rdparty/crypto/CMakeFiles/crypto.dir/build: 3rdparty/crypto/libcrypto.a
@@ -165,10 +165,10 @@ crypto_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/crypto/CMakeFiles/crypto.dir/build
 
 3rdparty/crypto/CMakeFiles/crypto.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
 .PHONY : 3rdparty/crypto/CMakeFiles/crypto.dir/clean
 
 3rdparty/crypto/CMakeFiles/crypto.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/crypto/CMakeFiles/crypto.dir/depend
 

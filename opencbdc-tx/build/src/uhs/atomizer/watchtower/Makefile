@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/rule
 .PHONY : src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ watchtowerd: src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/rule
 
 # fast build rule for target.
 watchtowerd/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build
 .PHONY : watchtowerd/fast
 
 # Convenience name for target.
 src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/rule
 .PHONY : src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/rule
 
 # Convenience name for target.
@@ -137,157 +137,157 @@ watchtower: src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/rule
 
 # fast build rule for target.
 watchtower/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build
 .PHONY : watchtower/fast
 
 # target to build an object file
 block_cache.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.o
 .PHONY : block_cache.o
 
 # target to preprocess a source file
 block_cache.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.i
 .PHONY : block_cache.i
 
 # target to generate assembly for a file
 block_cache.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/block_cache.s
 .PHONY : block_cache.s
 
 # target to build an object file
 client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.o
 .PHONY : client.o
 
 # target to preprocess a source file
 client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.i
 .PHONY : client.i
 
 # target to generate assembly for a file
 client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/client.s
 .PHONY : client.s
 
 # target to build an object file
 controller.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.o
 .PHONY : controller.o
 
 # target to preprocess a source file
 controller.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.i
 .PHONY : controller.i
 
 # target to generate assembly for a file
 controller.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/controller.s
 .PHONY : controller.s
 
 # target to build an object file
 error_cache.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.o
 .PHONY : error_cache.o
 
 # target to preprocess a source file
 error_cache.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.i
 .PHONY : error_cache.i
 
 # target to generate assembly for a file
 error_cache.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/error_cache.s
 .PHONY : error_cache.s
 
 # target to build an object file
 messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.o
 .PHONY : messages.o
 
 # target to preprocess a source file
 messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.i
 .PHONY : messages.i
 
 # target to generate assembly for a file
 messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/messages.s
 .PHONY : messages.s
 
 # target to build an object file
 status_update.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.o
 .PHONY : status_update.o
 
 # target to preprocess a source file
 status_update.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.i
 .PHONY : status_update.i
 
 # target to generate assembly for a file
 status_update.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update.s
 .PHONY : status_update.s
 
 # target to build an object file
 status_update_messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.o
 .PHONY : status_update_messages.o
 
 # target to preprocess a source file
 status_update_messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.i
 .PHONY : status_update_messages.i
 
 # target to generate assembly for a file
 status_update_messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/status_update_messages.s
 .PHONY : status_update_messages.s
 
 # target to build an object file
 tx_error_messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.o
 .PHONY : tx_error_messages.o
 
 # target to preprocess a source file
 tx_error_messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.i
 .PHONY : tx_error_messages.i
 
 # target to generate assembly for a file
 tx_error_messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/tx_error_messages.s
 .PHONY : tx_error_messages.s
 
 # target to build an object file
 watchtower.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.o
 .PHONY : watchtower.o
 
 # target to preprocess a source file
 watchtower.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.i
 .PHONY : watchtower.i
 
 # target to generate assembly for a file
 watchtower.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtower.dir/watchtower.s
 .PHONY : watchtower.s
 
 # target to build an object file
 watchtowerd.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.o
 .PHONY : watchtowerd.o
 
 # target to preprocess a source file
 watchtowerd.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.i
 .PHONY : watchtowerd.i
 
 # target to generate assembly for a file
 watchtowerd.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/build.make src/uhs/atomizer/watchtower/CMakeFiles/watchtowerd.dir/watchtowerd.s
 .PHONY : watchtowerd.s
 
 # Help Target
@@ -341,6 +341,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedant
 
 CXX_DEFINES = -D_NO_EXCEPTION
 
-CXX_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/. 
+CXX_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/. 
 

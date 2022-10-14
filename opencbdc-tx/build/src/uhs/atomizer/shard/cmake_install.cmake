@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,5 +6,5 @@ C_FLAGS = -g   -fprofile-arcs -ftest-coverage -DUSE_NUM_NONE=1 -DUSE_FIELD_INV_B
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1 
+C_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1 
 

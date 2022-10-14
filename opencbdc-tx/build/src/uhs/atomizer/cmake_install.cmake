@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/sentinel/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/sentinel/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower/cmake_install.cmake")
 
 endif()
 

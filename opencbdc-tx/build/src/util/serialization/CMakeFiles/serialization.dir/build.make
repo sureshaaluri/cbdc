@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/util/serialization/CMakeFiles/serialization.dir/depend.make
@@ -59,81 +59,81 @@ include src/util/serialization/CMakeFiles/serialization.dir/flags.make
 
 src/util/serialization/CMakeFiles/serialization.dir/format.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/format.o: ../src/util/serialization/format.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/format.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/format.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/format.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/format.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp > CMakeFiles/serialization.dir/format.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp > CMakeFiles/serialization.dir/format.i
 
 src/util/serialization/CMakeFiles/serialization.dir/format.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/format.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp -o CMakeFiles/serialization.dir/format.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp -o CMakeFiles/serialization.dir/format.s
 
 src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o: ../src/util/serialization/buffer_serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/buffer_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/buffer_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/buffer_serializer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp > CMakeFiles/serialization.dir/buffer_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp > CMakeFiles/serialization.dir/buffer_serializer.i
 
 src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/buffer_serializer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp -o CMakeFiles/serialization.dir/buffer_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp -o CMakeFiles/serialization.dir/buffer_serializer.s
 
 src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o: ../src/util/serialization/size_serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/size_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/size_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/size_serializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/size_serializer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp > CMakeFiles/serialization.dir/size_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp > CMakeFiles/serialization.dir/size_serializer.i
 
 src/util/serialization/CMakeFiles/serialization.dir/size_serializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/size_serializer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp -o CMakeFiles/serialization.dir/size_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp -o CMakeFiles/serialization.dir/size_serializer.s
 
 src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o: ../src/util/serialization/stream_serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/stream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/stream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/stream_serializer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp > CMakeFiles/serialization.dir/stream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp > CMakeFiles/serialization.dir/stream_serializer.i
 
 src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/stream_serializer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp -o CMakeFiles/serialization.dir/stream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp -o CMakeFiles/serialization.dir/stream_serializer.s
 
 src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o: ../src/util/serialization/istream_serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/istream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/istream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/istream_serializer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp > CMakeFiles/serialization.dir/istream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp > CMakeFiles/serialization.dir/istream_serializer.i
 
 src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/istream_serializer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp -o CMakeFiles/serialization.dir/istream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp -o CMakeFiles/serialization.dir/istream_serializer.s
 
 src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o: src/util/serialization/CMakeFiles/serialization.dir/flags.make
 src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o: ../src/util/serialization/ostream_serializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/ostream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/serialization.dir/ostream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp
 
 src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serialization.dir/ostream_serializer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp > CMakeFiles/serialization.dir/ostream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp > CMakeFiles/serialization.dir/ostream_serializer.i
 
 src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serialization.dir/ostream_serializer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp -o CMakeFiles/serialization.dir/ostream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp -o CMakeFiles/serialization.dir/ostream_serializer.s
 
 # Object files for target serialization
 serialization_OBJECTS = \
@@ -155,9 +155,9 @@ src/util/serialization/libserialization.a: src/util/serialization/CMakeFiles/ser
 src/util/serialization/libserialization.a: src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o
 src/util/serialization/libserialization.a: src/util/serialization/CMakeFiles/serialization.dir/build.make
 src/util/serialization/libserialization.a: src/util/serialization/CMakeFiles/serialization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libserialization.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -P CMakeFiles/serialization.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serialization.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libserialization.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -P CMakeFiles/serialization.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serialization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/util/serialization/CMakeFiles/serialization.dir/build: src/util/serialization/libserialization.a
@@ -165,10 +165,10 @@ src/util/serialization/CMakeFiles/serialization.dir/build: src/util/serializatio
 .PHONY : src/util/serialization/CMakeFiles/serialization.dir/build
 
 src/util/serialization/CMakeFiles/serialization.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -P CMakeFiles/serialization.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization && $(CMAKE_COMMAND) -P CMakeFiles/serialization.dir/cmake_clean.cmake
 .PHONY : src/util/serialization/CMakeFiles/serialization.dir/clean
 
 src/util/serialization/CMakeFiles/serialization.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/util/serialization /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/util/serialization/CMakeFiles/serialization.dir/depend
 

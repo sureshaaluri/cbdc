@@ -38,6 +38,6 @@ src/uhs/atomizer/sentinel/CMakeFiles/sentineld.dir/sentineld.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/controller.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/server.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/controller.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/server.hpp

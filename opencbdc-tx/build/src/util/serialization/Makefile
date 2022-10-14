@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/util/serialization/CMakeFiles/serialization.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/CMakeFiles/serialization.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/util/serialization/CMakeFiles/serialization.dir/rule
 .PHONY : src/util/serialization/CMakeFiles/serialization.dir/rule
 
 # Convenience name for target.
@@ -122,97 +122,97 @@ serialization: src/util/serialization/CMakeFiles/serialization.dir/rule
 
 # fast build rule for target.
 serialization/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/build
 .PHONY : serialization/fast
 
 # target to build an object file
 buffer_serializer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o
 .PHONY : buffer_serializer.o
 
 # target to preprocess a source file
 buffer_serializer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.i
 .PHONY : buffer_serializer.i
 
 # target to generate assembly for a file
 buffer_serializer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.s
 .PHONY : buffer_serializer.s
 
 # target to build an object file
 format.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.o
 .PHONY : format.o
 
 # target to preprocess a source file
 format.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.i
 .PHONY : format.i
 
 # target to generate assembly for a file
 format.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/format.s
 .PHONY : format.s
 
 # target to build an object file
 istream_serializer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o
 .PHONY : istream_serializer.o
 
 # target to preprocess a source file
 istream_serializer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.i
 .PHONY : istream_serializer.i
 
 # target to generate assembly for a file
 istream_serializer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.s
 .PHONY : istream_serializer.s
 
 # target to build an object file
 ostream_serializer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o
 .PHONY : ostream_serializer.o
 
 # target to preprocess a source file
 ostream_serializer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.i
 .PHONY : ostream_serializer.i
 
 # target to generate assembly for a file
 ostream_serializer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.s
 .PHONY : ostream_serializer.s
 
 # target to build an object file
 size_serializer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o
 .PHONY : size_serializer.o
 
 # target to preprocess a source file
 size_serializer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.i
 .PHONY : size_serializer.i
 
 # target to generate assembly for a file
 size_serializer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/size_serializer.s
 .PHONY : size_serializer.s
 
 # target to build an object file
 stream_serializer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o
 .PHONY : stream_serializer.o
 
 # target to preprocess a source file
 stream_serializer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.i
 .PHONY : stream_serializer.i
 
 # target to generate assembly for a file
 stream_serializer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/util/serialization/CMakeFiles/serialization.dir/build.make src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.s
 .PHONY : stream_serializer.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

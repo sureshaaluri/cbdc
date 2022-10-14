@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/tools/shard-seeder/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/shard-seeder/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tools/shard-seeder/CMakeFiles/shard-seeder.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/CMakeFiles/shard-seeder.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tools/shard-seeder/CMakeFiles/shard-seeder.dir/rule
 .PHONY : tools/shard-seeder/CMakeFiles/shard-seeder.dir/rule
 
 # Convenience name for target.
@@ -122,22 +122,22 @@ shard-seeder: tools/shard-seeder/CMakeFiles/shard-seeder.dir/rule
 
 # fast build rule for target.
 shard-seeder/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/build
 .PHONY : shard-seeder/fast
 
 # target to build an object file
 shard-seeder.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.o
 .PHONY : shard-seeder.o
 
 # target to preprocess a source file
 shard-seeder.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.i
 .PHONY : shard-seeder.i
 
 # target to generate assembly for a file
 shard-seeder.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tools/shard-seeder/CMakeFiles/shard-seeder.dir/build.make tools/shard-seeder/CMakeFiles/shard-seeder.dir/shard-seeder.s
 .PHONY : shard-seeder.s
 
 # Help Target
@@ -163,6 +163,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

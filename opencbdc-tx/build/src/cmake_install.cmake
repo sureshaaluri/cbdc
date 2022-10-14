@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/src
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/uhs/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/src/util/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/cmake_install.cmake")
 
 endif()
 

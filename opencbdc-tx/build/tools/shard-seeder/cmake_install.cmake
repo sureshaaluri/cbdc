@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/tools/shard-seeder
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

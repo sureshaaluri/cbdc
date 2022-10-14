@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/util/common/CMakeFiles/common.dir/depend.make
@@ -59,94 +59,94 @@ include src/util/common/CMakeFiles/common.dir/flags.make
 
 src/util/common/CMakeFiles/common.dir/buffer.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/buffer.o: ../src/util/common/buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/common/CMakeFiles/common.dir/buffer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/buffer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/common/CMakeFiles/common.dir/buffer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/buffer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp
 
 src/util/common/CMakeFiles/common.dir/buffer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/buffer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp > CMakeFiles/common.dir/buffer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp > CMakeFiles/common.dir/buffer.i
 
 src/util/common/CMakeFiles/common.dir/buffer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/buffer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp -o CMakeFiles/common.dir/buffer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp -o CMakeFiles/common.dir/buffer.s
 
 src/util/common/CMakeFiles/common.dir/hash.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/hash.o: ../src/util/common/hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/common/CMakeFiles/common.dir/hash.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/hash.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/common/CMakeFiles/common.dir/hash.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/hash.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp
 
 src/util/common/CMakeFiles/common.dir/hash.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/hash.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp > CMakeFiles/common.dir/hash.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp > CMakeFiles/common.dir/hash.i
 
 src/util/common/CMakeFiles/common.dir/hash.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/hash.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp -o CMakeFiles/common.dir/hash.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp -o CMakeFiles/common.dir/hash.s
 
 src/util/common/CMakeFiles/common.dir/hashmap.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/hashmap.o: ../src/util/common/hashmap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/common/CMakeFiles/common.dir/hashmap.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/hashmap.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/common/CMakeFiles/common.dir/hashmap.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/hashmap.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp
 
 src/util/common/CMakeFiles/common.dir/hashmap.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/hashmap.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp > CMakeFiles/common.dir/hashmap.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp > CMakeFiles/common.dir/hashmap.i
 
 src/util/common/CMakeFiles/common.dir/hashmap.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/hashmap.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp -o CMakeFiles/common.dir/hashmap.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp -o CMakeFiles/common.dir/hashmap.s
 
 src/util/common/CMakeFiles/common.dir/keys.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/keys.o: ../src/util/common/keys.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/common/CMakeFiles/common.dir/keys.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/keys.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/common/CMakeFiles/common.dir/keys.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/keys.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp
 
 src/util/common/CMakeFiles/common.dir/keys.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/keys.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp > CMakeFiles/common.dir/keys.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp > CMakeFiles/common.dir/keys.i
 
 src/util/common/CMakeFiles/common.dir/keys.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/keys.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp -o CMakeFiles/common.dir/keys.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp -o CMakeFiles/common.dir/keys.s
 
 src/util/common/CMakeFiles/common.dir/config.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/config.o: ../src/util/common/config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/common/CMakeFiles/common.dir/config.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/config.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/common/CMakeFiles/common.dir/config.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/config.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp
 
 src/util/common/CMakeFiles/common.dir/config.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/config.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp > CMakeFiles/common.dir/config.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp > CMakeFiles/common.dir/config.i
 
 src/util/common/CMakeFiles/common.dir/config.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/config.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp -o CMakeFiles/common.dir/config.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp -o CMakeFiles/common.dir/config.s
 
 src/util/common/CMakeFiles/common.dir/logging.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/logging.o: ../src/util/common/logging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/common/CMakeFiles/common.dir/logging.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/logging.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/common/CMakeFiles/common.dir/logging.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/logging.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp
 
 src/util/common/CMakeFiles/common.dir/logging.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/logging.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp > CMakeFiles/common.dir/logging.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp > CMakeFiles/common.dir/logging.i
 
 src/util/common/CMakeFiles/common.dir/logging.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/logging.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp -o CMakeFiles/common.dir/logging.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp -o CMakeFiles/common.dir/logging.s
 
 src/util/common/CMakeFiles/common.dir/random_source.o: src/util/common/CMakeFiles/common.dir/flags.make
 src/util/common/CMakeFiles/common.dir/random_source.o: ../src/util/common/random_source.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/util/common/CMakeFiles/common.dir/random_source.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/random_source.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/util/common/CMakeFiles/common.dir/random_source.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/common.dir/random_source.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp
 
 src/util/common/CMakeFiles/common.dir/random_source.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/common.dir/random_source.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp > CMakeFiles/common.dir/random_source.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp > CMakeFiles/common.dir/random_source.i
 
 src/util/common/CMakeFiles/common.dir/random_source.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/common.dir/random_source.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp -o CMakeFiles/common.dir/random_source.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp -o CMakeFiles/common.dir/random_source.s
 
 # Object files for target common
 common_OBJECTS = \
@@ -170,9 +170,9 @@ src/util/common/libcommon.a: src/util/common/CMakeFiles/common.dir/logging.o
 src/util/common/libcommon.a: src/util/common/CMakeFiles/common.dir/random_source.o
 src/util/common/libcommon.a: src/util/common/CMakeFiles/common.dir/build.make
 src/util/common/libcommon.a: src/util/common/CMakeFiles/common.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcommon.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libcommon.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/common.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/util/common/CMakeFiles/common.dir/build: src/util/common/libcommon.a
@@ -180,10 +180,10 @@ src/util/common/CMakeFiles/common.dir/build: src/util/common/libcommon.a
 .PHONY : src/util/common/CMakeFiles/common.dir/build
 
 src/util/common/CMakeFiles/common.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common && $(CMAKE_COMMAND) -P CMakeFiles/common.dir/cmake_clean.cmake
 .PHONY : src/util/common/CMakeFiles/common.dir/clean
 
 src/util/common/CMakeFiles/common.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/util/common /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/util/common /home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/util/common/CMakeFiles/common.dir/depend
 

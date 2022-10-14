@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,26 +38,26 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/libleveldb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/libleveldb.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/leveldb" TYPE FILE FILES
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/c.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/cache.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/comparator.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/db.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/dumpfile.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/env.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/export.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/filter_policy.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/iterator.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/options.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/slice.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/status.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/table_builder.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/table.h"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/write_batch.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/c.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/cache.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/comparator.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/db.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/dumpfile.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/env.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/export.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/filter_policy.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/iterator.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/options.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/slice.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/status.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/table_builder.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/table.h"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/include/leveldb/write_batch.h"
     )
 endif()
 
@@ -65,7 +65,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets.cmake"
-         "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+         "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb/leveldbTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -74,16 +74,16 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/Export/lib/cmake/leveldb/leveldbTargets-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/leveldb" TYPE FILE FILES
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/cmake/leveldbConfig.cmake"
-    "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/leveldbConfigVersion.cmake"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/cmake/leveldbConfig.cmake"
+    "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/leveldbConfigVersion.cmake"
     )
 endif()
 
@@ -95,5 +95,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

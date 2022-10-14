@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/crypto/CMakeFiles/crypto.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/CMakeFiles/crypto.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/crypto/CMakeFiles/crypto.dir/rule
 .PHONY : 3rdparty/crypto/CMakeFiles/crypto.dir/rule
 
 # Convenience name for target.
@@ -122,97 +122,97 @@ crypto: 3rdparty/crypto/CMakeFiles/crypto.dir/rule
 
 # fast build rule for target.
 crypto/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/build
 .PHONY : crypto/fast
 
 # target to build an object file
 sha256.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.o
 .PHONY : sha256.o
 
 # target to preprocess a source file
 sha256.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.i
 .PHONY : sha256.i
 
 # target to generate assembly for a file
 sha256.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256.s
 .PHONY : sha256.s
 
 # target to build an object file
 sha256_avx2.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.o
 .PHONY : sha256_avx2.o
 
 # target to preprocess a source file
 sha256_avx2.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.i
 .PHONY : sha256_avx2.i
 
 # target to generate assembly for a file
 sha256_avx2.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_avx2.s
 .PHONY : sha256_avx2.s
 
 # target to build an object file
 sha256_shani.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.o
 .PHONY : sha256_shani.o
 
 # target to preprocess a source file
 sha256_shani.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.i
 .PHONY : sha256_shani.i
 
 # target to generate assembly for a file
 sha256_shani.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_shani.s
 .PHONY : sha256_shani.s
 
 # target to build an object file
 sha256_sse4.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.o
 .PHONY : sha256_sse4.o
 
 # target to preprocess a source file
 sha256_sse4.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.i
 .PHONY : sha256_sse4.i
 
 # target to generate assembly for a file
 sha256_sse4.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse4.s
 .PHONY : sha256_sse4.s
 
 # target to build an object file
 sha256_sse41.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.o
 .PHONY : sha256_sse41.o
 
 # target to preprocess a source file
 sha256_sse41.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.i
 .PHONY : sha256_sse41.i
 
 # target to generate assembly for a file
 sha256_sse41.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/sha256_sse41.s
 .PHONY : sha256_sse41.s
 
 # target to build an object file
 siphash.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.o
 .PHONY : siphash.o
 
 # target to preprocess a source file
 siphash.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.i
 .PHONY : siphash.i
 
 # target to generate assembly for a file
 siphash.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f 3rdparty/crypto/CMakeFiles/crypto.dir/build.make 3rdparty/crypto/CMakeFiles/crypto.dir/siphash.s
 .PHONY : siphash.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

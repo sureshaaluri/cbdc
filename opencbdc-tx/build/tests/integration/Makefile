@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/tests/integration/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/integration/CMakeFiles/run_integration_tests.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/CMakeFiles/run_integration_tests.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 tests/integration/CMakeFiles/run_integration_tests.dir/rule
 .PHONY : tests/integration/CMakeFiles/run_integration_tests.dir/rule
 
 # Convenience name for target.
@@ -122,157 +122,157 @@ run_integration_tests: tests/integration/CMakeFiles/run_integration_tests.dir/ru
 
 # fast build rule for target.
 run_integration_tests/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/build
 .PHONY : run_integration_tests/fast
 
 # target to build an object file
 atomizer_end_to_end_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.o
 .PHONY : atomizer_end_to_end_test.o
 
 # target to preprocess a source file
 atomizer_end_to_end_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.i
 .PHONY : atomizer_end_to_end_test.i
 
 # target to generate assembly for a file
 atomizer_end_to_end_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.s
 .PHONY : atomizer_end_to_end_test.s
 
 # target to build an object file
 atomizer_raft_integration_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.o
 .PHONY : atomizer_raft_integration_test.o
 
 # target to preprocess a source file
 atomizer_raft_integration_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.i
 .PHONY : atomizer_raft_integration_test.i
 
 # target to generate assembly for a file
 atomizer_raft_integration_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.s
 .PHONY : atomizer_raft_integration_test.s
 
 # target to build an object file
 mock_system.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.o
 .PHONY : mock_system.o
 
 # target to preprocess a source file
 mock_system.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.i
 .PHONY : mock_system.i
 
 # target to generate assembly for a file
 mock_system.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/mock_system.s
 .PHONY : mock_system.s
 
 # target to build an object file
 replicated_atomizer_integration_tests.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.o
 .PHONY : replicated_atomizer_integration_tests.o
 
 # target to preprocess a source file
 replicated_atomizer_integration_tests.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.i
 .PHONY : replicated_atomizer_integration_tests.i
 
 # target to generate assembly for a file
 replicated_atomizer_integration_tests.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.s
 .PHONY : replicated_atomizer_integration_tests.s
 
 # target to build an object file
 replicated_shard_integration_tests.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.o
 .PHONY : replicated_shard_integration_tests.o
 
 # target to preprocess a source file
 replicated_shard_integration_tests.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.i
 .PHONY : replicated_shard_integration_tests.i
 
 # target to generate assembly for a file
 replicated_shard_integration_tests.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.s
 .PHONY : replicated_shard_integration_tests.s
 
 # target to build an object file
 sentinel_2pc_integration_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.o
 .PHONY : sentinel_2pc_integration_test.o
 
 # target to preprocess a source file
 sentinel_2pc_integration_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.i
 .PHONY : sentinel_2pc_integration_test.i
 
 # target to generate assembly for a file
 sentinel_2pc_integration_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.s
 .PHONY : sentinel_2pc_integration_test.s
 
 # target to build an object file
 sentinel_integration_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.o
 .PHONY : sentinel_integration_test.o
 
 # target to preprocess a source file
 sentinel_integration_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.i
 .PHONY : sentinel_integration_test.i
 
 # target to generate assembly for a file
 sentinel_integration_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/sentinel_integration_test.s
 .PHONY : sentinel_integration_test.s
 
 # target to build an object file
 shard_integration_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.o
 .PHONY : shard_integration_test.o
 
 # target to preprocess a source file
 shard_integration_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.i
 .PHONY : shard_integration_test.i
 
 # target to generate assembly for a file
 shard_integration_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/shard_integration_test.s
 .PHONY : shard_integration_test.s
 
 # target to build an object file
 two_phase_end_to_end_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.o
 .PHONY : two_phase_end_to_end_test.o
 
 # target to preprocess a source file
 two_phase_end_to_end_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.i
 .PHONY : two_phase_end_to_end_test.i
 
 # target to generate assembly for a file
 two_phase_end_to_end_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.s
 .PHONY : two_phase_end_to_end_test.s
 
 # target to build an object file
 watchtower_integration_test.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.o
 .PHONY : watchtower_integration_test.o
 
 # target to preprocess a source file
 watchtower_integration_test.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.i
 .PHONY : watchtower_integration_test.i
 
 # target to generate assembly for a file
 watchtower_integration_test.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f tests/integration/CMakeFiles/run_integration_tests.dir/build.make tests/integration/CMakeFiles/run_integration_tests.dir/watchtower_integration_test.s
 .PHONY : watchtower_integration_test.s
 
 # Help Target
@@ -325,6 +325,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -30,5 +30,5 @@ tests/CMakeFiles/util.dir/util.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/tests/util.cpp
- /home/suresh/CBDC/opencbdc-tx/tests/util.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/util.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/util.hpp

@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/connection_manager.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/peer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/socket.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/socket_selector.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/tcp_listener.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/tcp_socket.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/connection_manager.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/peer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/socket.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/socket_selector.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/tcp_listener.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/tcp_socket.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -22,7 +22,7 @@ type_traits
 vector
 -
 
-/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/bech32.cpp
+/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/bech32.cpp
 bech32.h
 -
 util/vector.h

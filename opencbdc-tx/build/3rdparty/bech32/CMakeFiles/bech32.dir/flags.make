@@ -6,5 +6,5 @@ CXX_FLAGS =  -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/./util 
+CXX_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/./util 
 

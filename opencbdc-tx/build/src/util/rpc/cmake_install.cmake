@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/src/util/rpc
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/rpc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

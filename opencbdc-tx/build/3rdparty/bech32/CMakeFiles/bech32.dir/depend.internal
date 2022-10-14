@@ -4,4 +4,4 @@
 3rdparty/bech32/CMakeFiles/bech32.dir/bech32.o
  ../3rdparty/bech32/bech32.h
  ../3rdparty/bech32/util/vector.h
- /home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/bech32.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/bech32.cpp

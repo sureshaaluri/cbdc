@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/rule
 .PHONY : src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ atomizer-raftd: src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/rule
 
 # fast build rule for target.
 atomizer-raftd/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build
 .PHONY : atomizer-raftd/fast
 
 # Convenience name for target.
 src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/rule
 .PHONY : src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ atomizer_raft: src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/rule
 
 # fast build rule for target.
 atomizer_raft/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build
 .PHONY : atomizer_raft/fast
 
 # Convenience name for target.
 src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/rule
 .PHONY : src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/rule
 
 # Convenience name for target.
@@ -152,130 +152,130 @@ atomizer: src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/rule
 
 # fast build rule for target.
 atomizer/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build
 .PHONY : atomizer/fast
 
 # target to build an object file
 atomizer-raftd.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.o
 .PHONY : atomizer-raftd.o
 
 # target to preprocess a source file
 atomizer-raftd.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.i
 .PHONY : atomizer-raftd.i
 
 # target to generate assembly for a file
 atomizer-raftd.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer-raftd.dir/atomizer-raftd.s
 .PHONY : atomizer-raftd.s
 
 # target to build an object file
 atomizer.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.o
 .PHONY : atomizer.o
 
 # target to preprocess a source file
 atomizer.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.i
 .PHONY : atomizer.i
 
 # target to generate assembly for a file
 atomizer.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/atomizer.s
 .PHONY : atomizer.s
 
 # target to build an object file
 atomizer_raft.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.o
 .PHONY : atomizer_raft.o
 
 # target to preprocess a source file
 atomizer_raft.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.i
 .PHONY : atomizer_raft.i
 
 # target to generate assembly for a file
 atomizer_raft.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.s
 .PHONY : atomizer_raft.s
 
 # target to build an object file
 block.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.o
 .PHONY : block.o
 
 # target to preprocess a source file
 block.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.i
 .PHONY : block.i
 
 # target to generate assembly for a file
 block.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/block.s
 .PHONY : block.s
 
 # target to build an object file
 controller.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.o
 .PHONY : controller.o
 
 # target to preprocess a source file
 controller.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.i
 .PHONY : controller.i
 
 # target to generate assembly for a file
 controller.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.s
 .PHONY : controller.s
 
 # target to build an object file
 format.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.o
 .PHONY : format.o
 
 # target to preprocess a source file
 format.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.i
 .PHONY : format.i
 
 # target to generate assembly for a file
 format.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/format.s
 .PHONY : format.s
 
 # target to build an object file
 messages.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.o
 .PHONY : messages.o
 
 # target to preprocess a source file
 messages.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.i
 .PHONY : messages.i
 
 # target to generate assembly for a file
 messages.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/messages.s
 .PHONY : messages.s
 
 # target to build an object file
 state_machine.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.o
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.o
 .PHONY : state_machine.o
 
 # target to preprocess a source file
 state_machine.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.i
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.i
 .PHONY : state_machine.i
 
 # target to generate assembly for a file
 state_machine.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.s
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/build.make src/uhs/atomizer/atomizer/CMakeFiles/atomizer.dir/state_machine.s
 .PHONY : state_machine.s
 
 # Help Target
@@ -324,6 +324,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/opencbdc-tx/build/src/uhs/client/CMakeFiles/progress.marks
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/opencbdc-tx/build/CMakeFiles 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client/CMakeFiles/progress.marks
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/clean
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/preinstall
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/uhs/client/CMakeFiles/client-cli.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/CMakeFiles/client-cli.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/CMakeFiles/client-cli.dir/rule
 .PHONY : src/uhs/client/CMakeFiles/client-cli.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ client-cli: src/uhs/client/CMakeFiles/client-cli.dir/rule
 
 # fast build rule for target.
 client-cli/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/build
 .PHONY : client-cli/fast
 
 # Convenience name for target.
 src/uhs/client/CMakeFiles/client.dir/rule:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/CMakeFiles/client.dir/rule
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f CMakeFiles/Makefile2 src/uhs/client/CMakeFiles/client.dir/rule
 .PHONY : src/uhs/client/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -137,67 +137,67 @@ client: src/uhs/client/CMakeFiles/client.dir/rule
 
 # fast build rule for target.
 client/fast:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/build
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
 # target to build an object file
 atomizer_client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.o
 .PHONY : atomizer_client.o
 
 # target to preprocess a source file
 atomizer_client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.i
 .PHONY : atomizer_client.i
 
 # target to generate assembly for a file
 atomizer_client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/atomizer_client.s
 .PHONY : atomizer_client.s
 
 # target to build an object file
 client-cli.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.o
 .PHONY : client-cli.o
 
 # target to preprocess a source file
 client-cli.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.i
 .PHONY : client-cli.i
 
 # target to generate assembly for a file
 client-cli.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client-cli.dir/build.make src/uhs/client/CMakeFiles/client-cli.dir/client-cli.s
 .PHONY : client-cli.s
 
 # target to build an object file
 client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.o
 .PHONY : client.o
 
 # target to preprocess a source file
 client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.i
 .PHONY : client.i
 
 # target to generate assembly for a file
 client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/client.s
 .PHONY : client.s
 
 # target to build an object file
 twophase_client.o:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.o
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.o
 .PHONY : twophase_client.o
 
 # target to preprocess a source file
 twophase_client.i:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.i
 .PHONY : twophase_client.i
 
 # target to generate assembly for a file
 twophase_client.s:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(MAKE) -f src/uhs/client/CMakeFiles/client.dir/build.make src/uhs/client/CMakeFiles/client.dir/twophase_client.s
 .PHONY : twophase_client.s
 
 # Help Target
@@ -233,6 +233,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

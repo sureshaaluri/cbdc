@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/format.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/buffer_serializer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/format.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/istream_serializer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/ostream_serializer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/size_serializer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization/CMakeFiles/serialization.dir/stream_serializer.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

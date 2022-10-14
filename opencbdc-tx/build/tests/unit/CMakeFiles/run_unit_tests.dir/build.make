@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include tests/unit/CMakeFiles/run_unit_tests.dir/depend.make
@@ -59,367 +59,367 @@ include tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 
 tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.o: ../tests/unit/archiver_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/archiver_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/archiver_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/archiver_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/archiver_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/archiver_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/archiver_test.cpp > CMakeFiles/run_unit_tests.dir/archiver_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/archiver_test.cpp > CMakeFiles/run_unit_tests.dir/archiver_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/archiver_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/archiver_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/archiver_test.cpp -o CMakeFiles/run_unit_tests.dir/archiver_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/archiver_test.cpp -o CMakeFiles/run_unit_tests.dir/archiver_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o: ../tests/unit/atomizer/messages_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer/messages_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer/messages_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/atomizer/messages_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer/messages_test.cpp > CMakeFiles/run_unit_tests.dir/atomizer/messages_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer/messages_test.cpp > CMakeFiles/run_unit_tests.dir/atomizer/messages_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer/messages_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/atomizer/messages_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer/messages_test.cpp -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer/messages_test.cpp -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.o: ../tests/unit/atomizer_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/atomizer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/atomizer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/atomizer_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer_test.cpp > CMakeFiles/run_unit_tests.dir/atomizer_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer_test.cpp > CMakeFiles/run_unit_tests.dir/atomizer_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/atomizer_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/atomizer_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer_test.cpp -o CMakeFiles/run_unit_tests.dir/atomizer_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer_test.cpp -o CMakeFiles/run_unit_tests.dir/atomizer_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.o: ../tests/unit/buffer_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/buffer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/buffer_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/buffer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/buffer_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/buffer_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/buffer_test.cpp > CMakeFiles/run_unit_tests.dir/buffer_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/buffer_test.cpp > CMakeFiles/run_unit_tests.dir/buffer_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/buffer_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/buffer_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/buffer_test.cpp -o CMakeFiles/run_unit_tests.dir/buffer_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/buffer_test.cpp -o CMakeFiles/run_unit_tests.dir/buffer_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.o: ../tests/unit/common/hash_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/common/hash_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/common/hash_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/common/hash_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/common/hash_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/common/hash_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/common/hash_test.cpp > CMakeFiles/run_unit_tests.dir/common/hash_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/common/hash_test.cpp > CMakeFiles/run_unit_tests.dir/common/hash_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/common/hash_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/common/hash_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/common/hash_test.cpp -o CMakeFiles/run_unit_tests.dir/common/hash_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/common/hash_test.cpp -o CMakeFiles/run_unit_tests.dir/common/hash_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/config_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/config_test.o: ../tests/unit/config_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/config_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/config_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/config_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/config_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/config_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/config_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/config_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/config_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/config_test.cpp > CMakeFiles/run_unit_tests.dir/config_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/config_test.cpp > CMakeFiles/run_unit_tests.dir/config_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/config_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/config_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/config_test.cpp -o CMakeFiles/run_unit_tests.dir/config_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/config_test.cpp -o CMakeFiles/run_unit_tests.dir/config_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o: ../tests/unit/coordinator/messages_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/messages_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/messages_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/coordinator/messages_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/messages_test.cpp > CMakeFiles/run_unit_tests.dir/coordinator/messages_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/messages_test.cpp > CMakeFiles/run_unit_tests.dir/coordinator/messages_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/messages_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/coordinator/messages_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/messages_test.cpp -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/messages_test.cpp -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o: ../tests/unit/locking_shard/format_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/format_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/format_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/locking_shard/format_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/format_test.cpp > CMakeFiles/run_unit_tests.dir/locking_shard/format_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/format_test.cpp > CMakeFiles/run_unit_tests.dir/locking_shard/format_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/format_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/locking_shard/format_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/format_test.cpp -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/format_test.cpp -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o: ../tests/unit/locking_shard/controller_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp > CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp > CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o: ../tests/unit/coordinator/controller_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/controller_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/controller_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/coordinator/controller_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/controller_test.cpp > CMakeFiles/run_unit_tests.dir/coordinator/controller_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/controller_test.cpp > CMakeFiles/run_unit_tests.dir/coordinator/controller_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/coordinator/controller_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/coordinator/controller_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/network_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/network_test.o: ../tests/unit/network_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/network_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/network_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/network_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/network_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/network_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/network_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/network_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/network_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/network_test.cpp > CMakeFiles/run_unit_tests.dir/network_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/network_test.cpp > CMakeFiles/run_unit_tests.dir/network_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/network_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/network_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/network_test.cpp -o CMakeFiles/run_unit_tests.dir/network_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/network_test.cpp -o CMakeFiles/run_unit_tests.dir/network_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/message_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/message_test.o: ../tests/unit/message_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/message_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/message_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/message_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/message_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/message_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/message_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/message_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/message_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/message_test.cpp > CMakeFiles/run_unit_tests.dir/message_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/message_test.cpp > CMakeFiles/run_unit_tests.dir/message_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/message_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/message_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/message_test.cpp -o CMakeFiles/run_unit_tests.dir/message_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/message_test.cpp -o CMakeFiles/run_unit_tests.dir/message_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.o: ../tests/unit/raft_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/raft_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/raft_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/raft_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/raft_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/raft_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/raft_test.cpp > CMakeFiles/run_unit_tests.dir/raft_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/raft_test.cpp > CMakeFiles/run_unit_tests.dir/raft_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/raft_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/raft_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/raft_test.cpp -o CMakeFiles/run_unit_tests.dir/raft_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/raft_test.cpp -o CMakeFiles/run_unit_tests.dir/raft_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o: ../tests/unit/rpc/tcp_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/rpc/tcp_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/rpc/tcp_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/rpc/tcp_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/rpc/tcp_test.cpp > CMakeFiles/run_unit_tests.dir/rpc/tcp_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/rpc/tcp_test.cpp > CMakeFiles/run_unit_tests.dir/rpc/tcp_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/rpc/tcp_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/rpc/tcp_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/rpc/tcp_test.cpp -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/rpc/tcp_test.cpp -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o: ../tests/unit/sentinel_2pc/controller_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp > CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp > CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.o: ../tests/unit/serialization_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/serialization_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization_test.cpp > CMakeFiles/run_unit_tests.dir/serialization_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization_test.cpp > CMakeFiles/run_unit_tests.dir/serialization_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/serialization_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.o: ../tests/unit/serialization/format_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization/format_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/format_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization/format_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/format_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/serialization/format_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/format_test.cpp > CMakeFiles/run_unit_tests.dir/serialization/format_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/format_test.cpp > CMakeFiles/run_unit_tests.dir/serialization/format_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/format_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/serialization/format_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/format_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization/format_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/format_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization/format_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.o: ../tests/unit/shard_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/shard_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/shard_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/shard_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/shard_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/shard_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/shard_test.cpp > CMakeFiles/run_unit_tests.dir/shard_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/shard_test.cpp > CMakeFiles/run_unit_tests.dir/shard_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/shard_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/shard_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/shard_test.cpp -o CMakeFiles/run_unit_tests.dir/shard_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/shard_test.cpp -o CMakeFiles/run_unit_tests.dir/shard_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.o: ../tests/unit/socket_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/socket_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/socket_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/socket_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/socket_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/socket_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/socket_test.cpp > CMakeFiles/run_unit_tests.dir/socket_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/socket_test.cpp > CMakeFiles/run_unit_tests.dir/socket_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/socket_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/socket_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/socket_test.cpp -o CMakeFiles/run_unit_tests.dir/socket_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/socket_test.cpp -o CMakeFiles/run_unit_tests.dir/socket_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o: ../tests/unit/serialization/stream_serializer_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp > CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp > CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.o: ../tests/unit/transaction_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/transaction_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/transaction_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/transaction_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/transaction_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/transaction_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/transaction_test.cpp > CMakeFiles/run_unit_tests.dir/transaction_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/transaction_test.cpp > CMakeFiles/run_unit_tests.dir/transaction_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/transaction_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/transaction_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/transaction_test.cpp -o CMakeFiles/run_unit_tests.dir/transaction_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/transaction_test.cpp -o CMakeFiles/run_unit_tests.dir/transaction_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.o: ../tests/unit/twophase_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/twophase_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/twophase_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/twophase_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/twophase_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/twophase_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/twophase_test.cpp > CMakeFiles/run_unit_tests.dir/twophase_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/twophase_test.cpp > CMakeFiles/run_unit_tests.dir/twophase_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/twophase_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/twophase_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/twophase_test.cpp -o CMakeFiles/run_unit_tests.dir/twophase_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/twophase_test.cpp -o CMakeFiles/run_unit_tests.dir/twophase_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.o: ../tests/unit/validation_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/validation_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/validation_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/validation_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/validation_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/validation_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/validation_test.cpp > CMakeFiles/run_unit_tests.dir/validation_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/validation_test.cpp > CMakeFiles/run_unit_tests.dir/validation_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/validation_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/validation_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/validation_test.cpp -o CMakeFiles/run_unit_tests.dir/validation_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/validation_test.cpp -o CMakeFiles/run_unit_tests.dir/validation_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.o: ../tests/unit/wallet_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/wallet_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/wallet_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/wallet_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/wallet_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/wallet_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/wallet_test.cpp > CMakeFiles/run_unit_tests.dir/wallet_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/wallet_test.cpp > CMakeFiles/run_unit_tests.dir/wallet_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/wallet_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/wallet_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/wallet_test.cpp -o CMakeFiles/run_unit_tests.dir/wallet_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/wallet_test.cpp -o CMakeFiles/run_unit_tests.dir/wallet_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o: ../tests/unit/watchtower/block_cache_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o: ../tests/unit/watchtower/error_cache_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o: ../tests/unit/watchtower/tx_error_messages_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.s
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o: tests/unit/CMakeFiles/run_unit_tests.dir/flags.make
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o: ../tests/unit/watchtower/watchtower_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp > CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.i
 
 tests/unit/CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.s
 
 # Object files for target run_unit_tests
 run_unit_tests_OBJECTS = \
@@ -509,8 +509,8 @@ tests/unit/run_unit_tests: 3rdparty/libsecp256k1.a
 tests/unit/run_unit_tests: /usr/local/lib/libleveldb.a
 tests/unit/run_unit_tests: /usr/local/lib/libnuraft.a
 tests/unit/run_unit_tests: tests/unit/CMakeFiles/run_unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable run_unit_tests"
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_unit_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable run_unit_tests"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/run_unit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/unit/CMakeFiles/run_unit_tests.dir/build: tests/unit/run_unit_tests
@@ -518,10 +518,10 @@ tests/unit/CMakeFiles/run_unit_tests.dir/build: tests/unit/run_unit_tests
 .PHONY : tests/unit/CMakeFiles/run_unit_tests.dir/build
 
 tests/unit/CMakeFiles/run_unit_tests.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/tests/unit && $(CMAKE_COMMAND) -P CMakeFiles/run_unit_tests.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit && $(CMAKE_COMMAND) -P CMakeFiles/run_unit_tests.dir/cmake_clean.cmake
 .PHONY : tests/unit/CMakeFiles/run_unit_tests.dir/clean
 
 tests/unit/CMakeFiles/run_unit_tests.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/tests/unit /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/tests/unit /home/suresh/CBDC/opencbdc-tx/build/tests/unit/CMakeFiles/run_unit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit/CMakeFiles/run_unit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/unit/CMakeFiles/run_unit_tests.dir/depend
 

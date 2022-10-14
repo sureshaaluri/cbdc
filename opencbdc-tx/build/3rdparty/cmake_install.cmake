@@ -1,4 +1,4 @@
-# Install script for directory: /home/suresh/CBDC/opencbdc-tx/3rdparty
+# Install script for directory: /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto/cmake_install.cmake")
-  include("/home/suresh/CBDC/opencbdc-tx/build/3rdparty/bech32/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto/cmake_install.cmake")
+  include("/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/bech32/cmake_install.cmake")
 
 endif()
 

@@ -1,687 +1,687 @@
 [
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty",
-  "command": "/usr/bin/cc  -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1 -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src -I/home/suresh/CBDC/opencbdc-tx/build/3rdparty/src  -g   -fprofile-arcs -ftest-coverage -DUSE_NUM_NONE=1 -DUSE_FIELD_INV_BUILTIN=1 -DUSE_SCALAR_INV_BUILTIN=1 -DUSE_ECMULT_STATIC_PRECOMPUTATION=1 -DUSE_FIELD_5X52=1 -DUSE_SCALAR_4X64=1 -DECMULT_WINDOW_SIZE=15 -DECMULT_GEN_PREC_BITS=4 -DHAVE___INT128 -DENABLE_MODULE_RECOVERY=1 -DENABLE_MODULE_SCHNORRSIG=1 -DENABLE_MODULE_EXTRAKEYS=1 -o CMakeFiles/secp256k1.dir/secp256k1/src/secp256k1.c.o   -c /home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty",
+  "command": "/usr/bin/cc  -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1 -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/src  -g   -fprofile-arcs -ftest-coverage -DUSE_NUM_NONE=1 -DUSE_FIELD_INV_BUILTIN=1 -DUSE_SCALAR_INV_BUILTIN=1 -DUSE_ECMULT_STATIC_PRECOMPUTATION=1 -DUSE_FIELD_5X52=1 -DUSE_SCALAR_4X64=1 -DECMULT_WINDOW_SIZE=15 -DECMULT_GEN_PREC_BITS=4 -DHAVE___INT128 -DENABLE_MODULE_RECOVERY=1 -DENABLE_MODULE_SCHNORRSIG=1 -DENABLE_MODULE_EXTRAKEYS=1 -o CMakeFiles/secp256k1.dir/secp256k1/src/secp256k1.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src/secp256k1.c"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty",
-  "command": "/usr/bin/cc  -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1  -g   -fprofile-arcs -ftest-coverage -DUSE_NUM_NONE=1 -DUSE_FIELD_INV_BUILTIN=1 -DUSE_SCALAR_INV_BUILTIN=1 -DUSE_ECMULT_STATIC_PRECOMPUTATION=1 -DUSE_FIELD_5X52=1 -DUSE_SCALAR_4X64=1 -DECMULT_WINDOW_SIZE=15 -DECMULT_GEN_PREC_BITS=4 -DHAVE___INT128 -DENABLE_MODULE_RECOVERY=1 -DENABLE_MODULE_SCHNORRSIG=1 -DENABLE_MODULE_EXTRAKEYS=1 -o CMakeFiles/secp256k1_genctx.dir/secp256k1/src/gen_context.c.o   -c /home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src/gen_context.c",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/src/gen_context.c"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty",
+  "command": "/usr/bin/cc  -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1  -g   -fprofile-arcs -ftest-coverage -DUSE_NUM_NONE=1 -DUSE_FIELD_INV_BUILTIN=1 -DUSE_SCALAR_INV_BUILTIN=1 -DUSE_ECMULT_STATIC_PRECOMPUTATION=1 -DUSE_FIELD_5X52=1 -DUSE_SCALAR_4X64=1 -DECMULT_WINDOW_SIZE=15 -DECMULT_GEN_PREC_BITS=4 -DHAVE___INT128 -DENABLE_MODULE_RECOVERY=1 -DENABLE_MODULE_SCHNORRSIG=1 -DENABLE_MODULE_EXTRAKEYS=1 -o CMakeFiles/secp256k1_genctx.dir/secp256k1/src/gen_context.c.o   -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src/gen_context.c",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/src/gen_context.c"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -DENABLE_AVX2 -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -mavx -mavx2 -o CMakeFiles/crypto.dir/sha256_avx2.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -DENABLE_AVX2 -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -mavx -mavx2 -o CMakeFiles/crypto.dir/sha256_avx2.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_avx2.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -DENABLE_SHANI -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -msse4 -msha -o CMakeFiles/crypto.dir/sha256_shani.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -DENABLE_SHANI -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -msse4 -msha -o CMakeFiles/crypto.dir/sha256_shani.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_shani.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/sha256_sse4.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/sha256_sse4.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse4.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -DENABLE_SSE41 -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -msse4.1 -o CMakeFiles/crypto.dir/sha256_sse41.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -DENABLE_SSE41 -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -msse4.1 -o CMakeFiles/crypto.dir/sha256_sse41.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256_sse41.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/sha256.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/sha256.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -DENABLE_AVX2 -DENABLE_SHANI -DENABLE_SSE41 -DUSE_ASM -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/sha256.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/sha256.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/crypto",
-  "command": "/usr/bin/c++   -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/siphash.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/crypto/siphash.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/crypto",
+  "command": "/usr/bin/c++   -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/crypto.dir/siphash.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/crypto/siphash.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/3rdparty/bech32",
-  "command": "/usr/bin/c++   -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/./util   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/bech32.dir/bech32.o -c /home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/bech32.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/bech32.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/3rdparty/bech32",
+  "command": "/usr/bin/c++   -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/./util   -fno-rtti -g   -fprofile-arcs -ftest-coverage -std=c++17 -o CMakeFiles/bech32.dir/bech32.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/bech32.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/bech32.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiverd.dir/archiverd.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/archiverd.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/archiverd.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiverd.dir/archiverd.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/archiverd.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/archiverd.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiver.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiver.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiver.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/archiver.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer-raftd.dir/atomizer-raftd.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer-raftd.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer-raftd.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer-raftd.dir/atomizer-raftd.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer-raftd.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer-raftd.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/atomizer_raft.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/atomizer_raft.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/state_machine.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer_raft.dir/state_machine.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/atomizer.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/atomizer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/block.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/block.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/block.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/block.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/block.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/block.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/state_machine.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/state_machine.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/atomizer.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentineld.dir/sentineld.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentineld.dir/sentineld.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/sentineld.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel.dir/server.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/server.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/sentinel/server.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel.dir/server.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/server.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/sentinel/server.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shardd.dir/shardd.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shardd.dir/shardd.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shardd.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shard.dir/shard.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shard.dir/shard.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/shard.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shard.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/shard.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/shard/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtowerd.dir/watchtowerd.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/watchtowerd.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/watchtowerd.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtowerd.dir/watchtowerd.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/watchtowerd.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/watchtowerd.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/watchtower.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/watchtower.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/watchtower.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/watchtower.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/watchtower.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/watchtower.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/status_update.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/status_update.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/status_update.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/status_update.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/status_update.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/status_update.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/error_cache.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/error_cache.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/error_cache.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/error_cache.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/error_cache.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/error_cache.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/block_cache.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/block_cache.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/block_cache.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/block_cache.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/block_cache.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/block_cache.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/tx_error_messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/tx_error_messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/tx_error_messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/tx_error_messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/tx_error_messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/tx_error_messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/status_update_messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/status_update_messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/status_update_messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/status_update_messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/status_update_messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/status_update_messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/watchtower",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/watchtower/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/watchtower",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/watchtower.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/watchtower/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/./util   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client-cli.dir/client-cli.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/client/client-cli.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/client-cli.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/bech32/./util   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client-cli.dir/client-cli.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client-cli.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client-cli.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/atomizer_client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/client/atomizer_client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/atomizer_client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/atomizer_client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/atomizer_client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/atomizer_client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/client/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/twophase_client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/client/twophase_client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/twophase_client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/client.dir/twophase_client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/twophase_client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/twophase_client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/sentinel",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/interface.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/sentinel/interface.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/sentinel",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_interface.dir/interface.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/sentinel/interface.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/transaction.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/transaction.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/transaction.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/transaction.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/validation.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/validation.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/validation.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/validation.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/transaction",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/wallet.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/transaction/wallet.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/transaction",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/transaction.dir/wallet.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/transaction/wallet.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinatord.dir/coordinatord.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinatord.dir/coordinatord.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/state_machine.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/state_machine.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/distributed_tx.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/distributed_tx.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/coordinator",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/server.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/coordinator",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/coordinator.dir/server.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/server.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking-shardd.dir/locking_shardd.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shardd.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shardd.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking-shardd.dir/locking_shardd.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shardd.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shardd.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/locking_shard.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shard.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shard.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/locking_shard.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shard.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/locking_shard.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/interface.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/interface.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/interface.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/interface.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/interface.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/interface.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/state_machine.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/state_machine.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/state_machine.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/state_machine.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/state_machine.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/state_machine.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/status_client.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/status_client.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/status_client.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/status_client.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/status_client.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/status_client.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/locking_shard",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/status_server.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/status_server.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/locking_shard/status_server.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/locking_shard",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/locking_shard.dir/status_server.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/status_server.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/locking_shard/status_server.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentineld-2pc.dir/sentineld_2pc.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/sentineld_2pc.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/sentineld_2pc.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentineld-2pc.dir/sentineld_2pc.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/sentineld_2pc.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/sentineld_2pc.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_2pc.dir/controller.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/controller.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/controller.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_2pc.dir/controller.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/controller.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/controller.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_2pc.dir/server.o -c /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/server.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/sentinel_2pc/server.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/twophase/sentinel_2pc",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/sentinel_2pc.dir/server.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/server.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/sentinel_2pc/server.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/buffer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/buffer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/hash.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/hash.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/hashmap.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/hashmap.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/keys.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/keys.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/config.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/config.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/logging.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/logging.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/common",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/random_source.o -c /home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/common.dir/random_source.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/connection_manager.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/connection_manager.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/peer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/peer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/socket.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/socket.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/socket_selector.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/socket_selector.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/tcp_listener.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/tcp_listener.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/network",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/tcp_socket.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/network.dir/tcp_socket.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/console_logger.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/console_logger.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/console_logger.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/console_logger.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/console_logger.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/console_logger.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/state_manager.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/state_manager.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/state_manager.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/state_manager.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/state_manager.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/state_manager.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/log_store.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/log_store.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/log_store.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/log_store.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/log_store.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/log_store.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/node.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/node.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/node.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/node.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/node.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/node.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/serialization.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/serialization.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/serialization.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/serialization.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/serialization.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/serialization.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/messages.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/messages.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/messages.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/messages.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/raft",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/index_comparator.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/index_comparator.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/raft/index_comparator.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/raft.dir/index_comparator.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/index_comparator.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/index_comparator.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/rpc",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/rpc.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/util/rpc/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/rpc/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/rpc",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/rpc.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/rpc/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/rpc/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/format.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/format.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/format.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/format.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/buffer_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/buffer_serializer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/buffer_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/buffer_serializer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/size_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/size_serializer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/size_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/size_serializer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/stream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/stream_serializer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/stream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/stream_serializer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/istream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/istream_serializer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/istream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/istream_serializer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/src/util/serialization",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/ostream_serializer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/src/util/serialization/ostream_serializer.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/serialization",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/.   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -Wconversion -std=c++17 -o CMakeFiles/serialization.dir/ostream_serializer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/serialization/ostream_serializer.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/util.dir/util.o -c /home/suresh/CBDC/opencbdc-tx/tests/util.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/util.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/util.dir/util.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/util.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/util.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/mock_system.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/mock_system.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/mock_system.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/mock_system.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/mock_system.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/mock_system.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/atomizer_raft_integration_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/atomizer_raft_integration_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/atomizer_raft_integration_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/atomizer_raft_integration_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/atomizer_raft_integration_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/atomizer_end_to_end_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/atomizer_end_to_end_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/atomizer_end_to_end_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/atomizer_end_to_end_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/atomizer_end_to_end_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/sentinel_integration_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/sentinel_integration_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/sentinel_integration_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/sentinel_integration_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/sentinel_integration_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/sentinel_integration_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/sentinel_2pc_integration_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/sentinel_2pc_integration_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/sentinel_2pc_integration_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/sentinel_2pc_integration_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/sentinel_2pc_integration_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/shard_integration_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/shard_integration_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/shard_integration_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/shard_integration_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/shard_integration_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/shard_integration_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/replicated_shard_integration_tests.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/replicated_shard_integration_tests.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/replicated_shard_integration_tests.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/replicated_shard_integration_tests.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/replicated_shard_integration_tests.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/replicated_atomizer_integration_tests.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/replicated_atomizer_integration_tests.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/replicated_atomizer_integration_tests.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/replicated_atomizer_integration_tests.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/replicated_atomizer_integration_tests.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/two_phase_end_to_end_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/two_phase_end_to_end_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/two_phase_end_to_end_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/two_phase_end_to_end_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/two_phase_end_to_end_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/integration",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/watchtower_integration_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/integration/watchtower_integration_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/integration/watchtower_integration_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/integration",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_integration_tests.dir/watchtower_integration_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/watchtower_integration_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/integration/watchtower_integration_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/archiver_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/archiver_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/archiver_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/archiver_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/archiver_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/archiver_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer/messages_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer/messages_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/atomizer/messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer/messages_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer/messages_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/atomizer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/atomizer_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/atomizer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/atomizer_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/buffer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/buffer_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/buffer_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/buffer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/buffer_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/buffer_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/common/hash_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/common/hash_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/common/hash_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/common/hash_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/common/hash_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/common/hash_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/config_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/config_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/config_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/config_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/config_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/config_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/messages_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/messages_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/coordinator/messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/messages_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/messages_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/format_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/format_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/locking_shard/format_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/format_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/format_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/locking_shard/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/locking_shard/controller_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/controller_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/coordinator/controller_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/coordinator/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/controller_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/coordinator/controller_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/network_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/network_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/network_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/network_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/network_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/network_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/message_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/message_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/message_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/message_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/message_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/message_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/raft_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/raft_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/raft_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/raft_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/raft_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/raft_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/rpc/tcp_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/rpc/tcp_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/rpc/tcp_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/rpc/tcp_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/rpc/tcp_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/sentinel_2pc/controller_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/sentinel_2pc/controller_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/serialization_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization/format_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/format_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/format_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization/format_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/format_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/format_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/shard_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/shard_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/shard_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/shard_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/shard_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/shard_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/socket_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/socket_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/socket_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/socket_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/socket_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/socket_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/serialization/stream_serializer_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/serialization/stream_serializer_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/transaction_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/transaction_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/transaction_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/transaction_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/transaction_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/transaction_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/twophase_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/twophase_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/twophase_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/twophase_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/twophase_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/twophase_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/validation_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/validation_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/validation_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/validation_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/validation_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/validation_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/wallet_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/wallet_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/wallet_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/wallet_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/wallet_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/wallet_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/block_cache_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/block_cache_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/error_cache_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/error_cache_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/tx_error_messages_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/tx_error_messages_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tests/unit",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o -c /home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tests/unit",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/run_unit_tests.dir/watchtower/watchtower_test.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/unit/watchtower/watchtower_test.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tools/bench",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../src -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.o -c /home/suresh/CBDC/opencbdc-tx/tools/bench/atomizer-cli-watchtower.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tools/bench/atomizer-cli-watchtower.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/bench",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/atomizer-cli-watchtower.dir/atomizer-cli-watchtower.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/atomizer-cli-watchtower.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/atomizer-cli-watchtower.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tools/bench",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../src -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tools/bench/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/twophase-gen.dir/twophase_gen.o -c /home/suresh/CBDC/opencbdc-tx/tools/bench/twophase_gen.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tools/bench/twophase_gen.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/bench",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/twophase-gen.dir/twophase_gen.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/twophase_gen.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/bench/twophase_gen.cpp"
 },
 {
-  "directory": "/home/suresh/CBDC/opencbdc-tx/build/tools/shard-seeder",
-  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/../../src -I/home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/../../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/shard-seeder.dir/shard-seeder.o -c /home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp",
-  "file": "/home/suresh/CBDC/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp"
+  "directory": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/tools/shard-seeder",
+  "command": "/usr/bin/c++  -D_NO_EXCEPTION -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/../../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/../../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/../../3rdparty/secp256k1/include   -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedantic -Werror -fno-exceptions -Wshadow -std=c++17 -o CMakeFiles/shard-seeder.dir/shard-seeder.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp",
+  "file": "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tools/shard-seeder/shard-seeder.cpp"
 }
 ]

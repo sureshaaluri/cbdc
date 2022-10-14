@@ -48,7 +48,7 @@ src/uhs/client/CMakeFiles/client-cli.dir/client-cli.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/client/atomizer_client.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/client/client-cli.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/client/client.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/client/twophase_client.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/atomizer_client.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client-cli.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/twophase_client.hpp

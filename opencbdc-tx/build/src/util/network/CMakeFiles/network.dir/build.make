@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/util/network/CMakeFiles/network.dir/depend.make
@@ -59,81 +59,81 @@ include src/util/network/CMakeFiles/network.dir/flags.make
 
 src/util/network/CMakeFiles/network.dir/connection_manager.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/connection_manager.o: ../src/util/network/connection_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/network/CMakeFiles/network.dir/connection_manager.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/connection_manager.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/network/CMakeFiles/network.dir/connection_manager.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/connection_manager.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp
 
 src/util/network/CMakeFiles/network.dir/connection_manager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/connection_manager.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp > CMakeFiles/network.dir/connection_manager.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp > CMakeFiles/network.dir/connection_manager.i
 
 src/util/network/CMakeFiles/network.dir/connection_manager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/connection_manager.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/connection_manager.cpp -o CMakeFiles/network.dir/connection_manager.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/connection_manager.cpp -o CMakeFiles/network.dir/connection_manager.s
 
 src/util/network/CMakeFiles/network.dir/peer.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/peer.o: ../src/util/network/peer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/network/CMakeFiles/network.dir/peer.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/peer.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/network/CMakeFiles/network.dir/peer.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/peer.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp
 
 src/util/network/CMakeFiles/network.dir/peer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/peer.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp > CMakeFiles/network.dir/peer.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp > CMakeFiles/network.dir/peer.i
 
 src/util/network/CMakeFiles/network.dir/peer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/peer.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/peer.cpp -o CMakeFiles/network.dir/peer.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/peer.cpp -o CMakeFiles/network.dir/peer.s
 
 src/util/network/CMakeFiles/network.dir/socket.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/socket.o: ../src/util/network/socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/network/CMakeFiles/network.dir/socket.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/socket.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/network/CMakeFiles/network.dir/socket.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/socket.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp
 
 src/util/network/CMakeFiles/network.dir/socket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/socket.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp > CMakeFiles/network.dir/socket.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp > CMakeFiles/network.dir/socket.i
 
 src/util/network/CMakeFiles/network.dir/socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/socket.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/socket.cpp -o CMakeFiles/network.dir/socket.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket.cpp -o CMakeFiles/network.dir/socket.s
 
 src/util/network/CMakeFiles/network.dir/socket_selector.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/socket_selector.o: ../src/util/network/socket_selector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/network/CMakeFiles/network.dir/socket_selector.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/socket_selector.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/network/CMakeFiles/network.dir/socket_selector.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/socket_selector.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp
 
 src/util/network/CMakeFiles/network.dir/socket_selector.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/socket_selector.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp > CMakeFiles/network.dir/socket_selector.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp > CMakeFiles/network.dir/socket_selector.i
 
 src/util/network/CMakeFiles/network.dir/socket_selector.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/socket_selector.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/socket_selector.cpp -o CMakeFiles/network.dir/socket_selector.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/socket_selector.cpp -o CMakeFiles/network.dir/socket_selector.s
 
 src/util/network/CMakeFiles/network.dir/tcp_listener.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/tcp_listener.o: ../src/util/network/tcp_listener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/network/CMakeFiles/network.dir/tcp_listener.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/tcp_listener.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/network/CMakeFiles/network.dir/tcp_listener.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/tcp_listener.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp
 
 src/util/network/CMakeFiles/network.dir/tcp_listener.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/tcp_listener.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp > CMakeFiles/network.dir/tcp_listener.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp > CMakeFiles/network.dir/tcp_listener.i
 
 src/util/network/CMakeFiles/network.dir/tcp_listener.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/tcp_listener.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_listener.cpp -o CMakeFiles/network.dir/tcp_listener.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_listener.cpp -o CMakeFiles/network.dir/tcp_listener.s
 
 src/util/network/CMakeFiles/network.dir/tcp_socket.o: src/util/network/CMakeFiles/network.dir/flags.make
 src/util/network/CMakeFiles/network.dir/tcp_socket.o: ../src/util/network/tcp_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/network/CMakeFiles/network.dir/tcp_socket.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/tcp_socket.o -c /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/network/CMakeFiles/network.dir/tcp_socket.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/network.dir/tcp_socket.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp
 
 src/util/network/CMakeFiles/network.dir/tcp_socket.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/network.dir/tcp_socket.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp > CMakeFiles/network.dir/tcp_socket.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp > CMakeFiles/network.dir/tcp_socket.i
 
 src/util/network/CMakeFiles/network.dir/tcp_socket.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/network.dir/tcp_socket.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/network/tcp_socket.cpp -o CMakeFiles/network.dir/tcp_socket.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network/tcp_socket.cpp -o CMakeFiles/network.dir/tcp_socket.s
 
 # Object files for target network
 network_OBJECTS = \
@@ -155,9 +155,9 @@ src/util/network/libnetwork.a: src/util/network/CMakeFiles/network.dir/tcp_liste
 src/util/network/libnetwork.a: src/util/network/CMakeFiles/network.dir/tcp_socket.o
 src/util/network/libnetwork.a: src/util/network/CMakeFiles/network.dir/build.make
 src/util/network/libnetwork.a: src/util/network/CMakeFiles/network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libnetwork.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libnetwork.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/network.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/util/network/CMakeFiles/network.dir/build: src/util/network/libnetwork.a
@@ -165,10 +165,10 @@ src/util/network/CMakeFiles/network.dir/build: src/util/network/libnetwork.a
 .PHONY : src/util/network/CMakeFiles/network.dir/build
 
 src/util/network/CMakeFiles/network.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network && $(CMAKE_COMMAND) -P CMakeFiles/network.dir/cmake_clean.cmake
 .PHONY : src/util/network/CMakeFiles/network.dir/clean
 
 src/util/network/CMakeFiles/network.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/util/network /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/util/network /home/suresh/CBDC/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/network /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/network/CMakeFiles/network.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/util/network/CMakeFiles/network.dir/depend
 

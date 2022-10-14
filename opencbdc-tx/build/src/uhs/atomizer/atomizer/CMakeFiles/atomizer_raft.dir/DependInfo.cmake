@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/atomizer_raft.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/atomizer_raft.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/controller.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/controller.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/atomizer/state_machine.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/atomizer/CMakeFiles/atomizer_raft.dir/state_machine.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,5 +6,5 @@ CXX_FLAGS =  -fno-rtti -g   -fprofile-arcs -ftest-coverage -Wall -Wextra -pedant
 
 CXX_DEFINES = -D_NO_EXCEPTION
 
-CXX_INCLUDES = -I/home/suresh/CBDC/opencbdc-tx/3rdparty -I/home/suresh/CBDC/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/opencbdc-tx/tests/. -I/home/suresh/CBDC/opencbdc-tx/tests/../src -I/home/suresh/CBDC/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/opencbdc-tx/tests/../3rdparty/secp256k1/include 
+CXX_INCLUDES = -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/3rdparty/secp256k1/include -I/opt/homebrew/include -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/. -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../src -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../tools/watchtower -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty -I/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/tests/../3rdparty/secp256k1/include 
 

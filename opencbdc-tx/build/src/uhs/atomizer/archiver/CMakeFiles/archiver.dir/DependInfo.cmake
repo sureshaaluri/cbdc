@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/client.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/controller.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/atomizer/archiver/controller.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/atomizer/archiver/CMakeFiles/archiver.dir/controller.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

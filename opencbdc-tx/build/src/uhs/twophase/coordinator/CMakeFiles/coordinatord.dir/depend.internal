@@ -37,10 +37,10 @@ src/uhs/twophase/coordinator/CMakeFiles/coordinatord.dir/coordinatord.o
  ../src/util/serialization/serializer.hpp
  ../src/util/serialization/size_serializer.hpp
  ../src/util/serialization/util.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/controller.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/interface.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/messages.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/server.hpp
- /home/suresh/CBDC/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/controller.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/coordinatord.cpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/distributed_tx.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/interface.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/messages.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/server.hpp
+ /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/twophase/coordinator/state_machine.hpp

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/suresh/CBDC/opencbdc-tx
+CMAKE_SOURCE_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/suresh/CBDC/opencbdc-tx/build
+CMAKE_BINARY_DIR = /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build
 
 # Include any dependencies generated for this target.
 include src/util/raft/CMakeFiles/raft.dir/depend.make
@@ -59,94 +59,94 @@ include src/util/raft/CMakeFiles/raft.dir/flags.make
 
 src/util/raft/CMakeFiles/raft.dir/console_logger.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/console_logger.o: ../src/util/raft/console_logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/raft/CMakeFiles/raft.dir/console_logger.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/console_logger.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/console_logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/util/raft/CMakeFiles/raft.dir/console_logger.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/console_logger.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/console_logger.cpp
 
 src/util/raft/CMakeFiles/raft.dir/console_logger.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/console_logger.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/console_logger.cpp > CMakeFiles/raft.dir/console_logger.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/console_logger.cpp > CMakeFiles/raft.dir/console_logger.i
 
 src/util/raft/CMakeFiles/raft.dir/console_logger.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/console_logger.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/console_logger.cpp -o CMakeFiles/raft.dir/console_logger.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/console_logger.cpp -o CMakeFiles/raft.dir/console_logger.s
 
 src/util/raft/CMakeFiles/raft.dir/state_manager.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/state_manager.o: ../src/util/raft/state_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/raft/CMakeFiles/raft.dir/state_manager.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/state_manager.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/state_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/util/raft/CMakeFiles/raft.dir/state_manager.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/state_manager.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/state_manager.cpp
 
 src/util/raft/CMakeFiles/raft.dir/state_manager.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/state_manager.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/state_manager.cpp > CMakeFiles/raft.dir/state_manager.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/state_manager.cpp > CMakeFiles/raft.dir/state_manager.i
 
 src/util/raft/CMakeFiles/raft.dir/state_manager.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/state_manager.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/state_manager.cpp -o CMakeFiles/raft.dir/state_manager.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/state_manager.cpp -o CMakeFiles/raft.dir/state_manager.s
 
 src/util/raft/CMakeFiles/raft.dir/log_store.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/log_store.o: ../src/util/raft/log_store.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/raft/CMakeFiles/raft.dir/log_store.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/log_store.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/log_store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/util/raft/CMakeFiles/raft.dir/log_store.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/log_store.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/log_store.cpp
 
 src/util/raft/CMakeFiles/raft.dir/log_store.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/log_store.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/log_store.cpp > CMakeFiles/raft.dir/log_store.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/log_store.cpp > CMakeFiles/raft.dir/log_store.i
 
 src/util/raft/CMakeFiles/raft.dir/log_store.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/log_store.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/log_store.cpp -o CMakeFiles/raft.dir/log_store.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/log_store.cpp -o CMakeFiles/raft.dir/log_store.s
 
 src/util/raft/CMakeFiles/raft.dir/node.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/node.o: ../src/util/raft/node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/raft/CMakeFiles/raft.dir/node.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/node.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/util/raft/CMakeFiles/raft.dir/node.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/node.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/node.cpp
 
 src/util/raft/CMakeFiles/raft.dir/node.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/node.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/node.cpp > CMakeFiles/raft.dir/node.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/node.cpp > CMakeFiles/raft.dir/node.i
 
 src/util/raft/CMakeFiles/raft.dir/node.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/node.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/node.cpp -o CMakeFiles/raft.dir/node.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/node.cpp -o CMakeFiles/raft.dir/node.s
 
 src/util/raft/CMakeFiles/raft.dir/serialization.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/serialization.o: ../src/util/raft/serialization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/raft/CMakeFiles/raft.dir/serialization.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/serialization.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/serialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/util/raft/CMakeFiles/raft.dir/serialization.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/serialization.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/serialization.cpp
 
 src/util/raft/CMakeFiles/raft.dir/serialization.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/serialization.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/serialization.cpp > CMakeFiles/raft.dir/serialization.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/serialization.cpp > CMakeFiles/raft.dir/serialization.i
 
 src/util/raft/CMakeFiles/raft.dir/serialization.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/serialization.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/serialization.cpp -o CMakeFiles/raft.dir/serialization.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/serialization.cpp -o CMakeFiles/raft.dir/serialization.s
 
 src/util/raft/CMakeFiles/raft.dir/messages.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/messages.o: ../src/util/raft/messages.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/raft/CMakeFiles/raft.dir/messages.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/messages.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/messages.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/util/raft/CMakeFiles/raft.dir/messages.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/messages.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/messages.cpp
 
 src/util/raft/CMakeFiles/raft.dir/messages.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/messages.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/messages.cpp > CMakeFiles/raft.dir/messages.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/messages.cpp > CMakeFiles/raft.dir/messages.i
 
 src/util/raft/CMakeFiles/raft.dir/messages.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/messages.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/messages.cpp -o CMakeFiles/raft.dir/messages.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/messages.cpp -o CMakeFiles/raft.dir/messages.s
 
 src/util/raft/CMakeFiles/raft.dir/index_comparator.o: src/util/raft/CMakeFiles/raft.dir/flags.make
 src/util/raft/CMakeFiles/raft.dir/index_comparator.o: ../src/util/raft/index_comparator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/util/raft/CMakeFiles/raft.dir/index_comparator.o"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/index_comparator.o -c /home/suresh/CBDC/opencbdc-tx/src/util/raft/index_comparator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/util/raft/CMakeFiles/raft.dir/index_comparator.o"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raft.dir/index_comparator.o -c /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/index_comparator.cpp
 
 src/util/raft/CMakeFiles/raft.dir/index_comparator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raft.dir/index_comparator.i"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/opencbdc-tx/src/util/raft/index_comparator.cpp > CMakeFiles/raft.dir/index_comparator.i
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/index_comparator.cpp > CMakeFiles/raft.dir/index_comparator.i
 
 src/util/raft/CMakeFiles/raft.dir/index_comparator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raft.dir/index_comparator.s"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/opencbdc-tx/src/util/raft/index_comparator.cpp -o CMakeFiles/raft.dir/index_comparator.s
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft/index_comparator.cpp -o CMakeFiles/raft.dir/index_comparator.s
 
 # Object files for target raft
 raft_OBJECTS = \
@@ -170,9 +170,9 @@ src/util/raft/libraft.a: src/util/raft/CMakeFiles/raft.dir/messages.o
 src/util/raft/libraft.a: src/util/raft/CMakeFiles/raft.dir/index_comparator.o
 src/util/raft/libraft.a: src/util/raft/CMakeFiles/raft.dir/build.make
 src/util/raft/libraft.a: src/util/raft/CMakeFiles/raft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libraft.a"
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -P CMakeFiles/raft.dir/cmake_clean_target.cmake
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raft.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libraft.a"
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -P CMakeFiles/raft.dir/cmake_clean_target.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/util/raft/CMakeFiles/raft.dir/build: src/util/raft/libraft.a
@@ -180,10 +180,10 @@ src/util/raft/CMakeFiles/raft.dir/build: src/util/raft/libraft.a
 .PHONY : src/util/raft/CMakeFiles/raft.dir/build
 
 src/util/raft/CMakeFiles/raft.dir/clean:
-	cd /home/suresh/CBDC/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -P CMakeFiles/raft.dir/cmake_clean.cmake
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft && $(CMAKE_COMMAND) -P CMakeFiles/raft.dir/cmake_clean.cmake
 .PHONY : src/util/raft/CMakeFiles/raft.dir/clean
 
 src/util/raft/CMakeFiles/raft.dir/depend:
-	cd /home/suresh/CBDC/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/opencbdc-tx /home/suresh/CBDC/opencbdc-tx/src/util/raft /home/suresh/CBDC/opencbdc-tx/build /home/suresh/CBDC/opencbdc-tx/build/src/util/raft /home/suresh/CBDC/opencbdc-tx/build/src/util/raft/CMakeFiles/raft.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/raft /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft /home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/raft/CMakeFiles/raft.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/util/raft/CMakeFiles/raft.dir/depend
 

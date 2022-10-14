@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/atomizer_client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/atomizer_client.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/client.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/uhs/client/twophase_client.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/twophase_client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/atomizer_client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/atomizer_client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/client.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/uhs/client/twophase_client.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/uhs/client/CMakeFiles/client.dir/twophase_client.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

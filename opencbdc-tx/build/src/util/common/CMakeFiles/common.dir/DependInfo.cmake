@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/buffer.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/buffer.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/config.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/config.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/hash.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/hash.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/hashmap.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/hashmap.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/keys.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/keys.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/logging.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/logging.o"
-  "/home/suresh/CBDC/opencbdc-tx/src/util/common/random_source.cpp" "/home/suresh/CBDC/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/random_source.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/buffer.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/buffer.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/config.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/config.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hash.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/hash.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/hashmap.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/hashmap.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/keys.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/keys.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/logging.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/logging.o"
+  "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/src/util/common/random_source.cpp" "/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/build/src/util/common/CMakeFiles/common.dir/random_source.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
