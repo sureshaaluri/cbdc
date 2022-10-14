@@ -1,0 +1,2 @@
+/usr/bin/ar qc libatomizer_raft.a  CMakeFiles/atomizer_raft.dir/atomizer_raft.o CMakeFiles/atomizer_raft.dir/controller.o CMakeFiles/atomizer_raft.dir/state_machine.o
+/usr/bin/ranlib libatomizer_raft.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnetwork.a  CMakeFiles/network.dir/connection_manager.o CMakeFiles/network.dir/peer.o CMakeFiles/network.dir/socket.o CMakeFiles/network.dir/socket_selector.o CMakeFiles/network.dir/tcp_listener.o CMakeFiles/network.dir/tcp_socket.o
+/usr/bin/ranlib libnetwork.a

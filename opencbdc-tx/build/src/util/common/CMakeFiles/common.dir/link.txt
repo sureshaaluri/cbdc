@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommon.a  CMakeFiles/common.dir/buffer.o CMakeFiles/common.dir/hash.o CMakeFiles/common.dir/hashmap.o CMakeFiles/common.dir/keys.o CMakeFiles/common.dir/config.o CMakeFiles/common.dir/logging.o CMakeFiles/common.dir/random_source.o
+/usr/bin/ranlib libcommon.a

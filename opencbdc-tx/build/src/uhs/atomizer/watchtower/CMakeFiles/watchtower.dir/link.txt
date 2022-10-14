@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwatchtower.a  CMakeFiles/watchtower.dir/controller.o CMakeFiles/watchtower.dir/watchtower.o CMakeFiles/watchtower.dir/status_update.o CMakeFiles/watchtower.dir/error_cache.o CMakeFiles/watchtower.dir/block_cache.o CMakeFiles/watchtower.dir/tx_error_messages.o CMakeFiles/watchtower.dir/status_update_messages.o CMakeFiles/watchtower.dir/messages.o CMakeFiles/watchtower.dir/client.o
+/usr/bin/ranlib libwatchtower.a

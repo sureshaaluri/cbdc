@@ -1,0 +1,186 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fac13/fast && /usr/bin/make -f CMakeFiles/cmTC_fac13.dir/build.make CMakeFiles/cmTC_fac13.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fac13.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value   -std=c11 -o CMakeFiles/cmTC_fac13.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fac13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fac13.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value    CMakeFiles/cmTC_fac13.dir/CheckFunctionExists.c.o  -o cmTC_fac13  -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_fac13.dir/build.make:87: cmTC_fac13] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fac13/fast] Error 2
+
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfc97/fast && /usr/bin/make -f CMakeFiles/cmTC_dfc97.dir/build.make CMakeFiles/cmTC_dfc97.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfc97.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress   -std=c11 -o CMakeFiles/cmTC_dfc97.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dfc97
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfc97.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress    CMakeFiles/cmTC_dfc97.dir/CheckFunctionExists.c.o  -o cmTC_dfc97  -lsnappy 
+/usr/bin/ld: cannot find -lsnappy
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_dfc97.dir/build.make:87: cmTC_dfc97] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dfc97/fast] Error 2
+
+
+
+Determining if the function malloc exists in the tcmalloc failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4c004/fast && /usr/bin/make -f CMakeFiles/cmTC_4c004.dir/build.make CMakeFiles/cmTC_4c004.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c004.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc   -std=c11 -o CMakeFiles/cmTC_4c004.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.16/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_4c004
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c004.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_4c004.dir/CheckFunctionExists.c.o  -o cmTC_4c004  -ltcmalloc 
+/usr/bin/ld: cannot find -ltcmalloc
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_4c004.dir/build.make:87: cmTC_4c004] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4c004/fast] Error 2
+
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_72d2b/fast && /usr/bin/make -f CMakeFiles/cmTC_72d2b.dir/build.make CMakeFiles/cmTC_72d2b.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_72d2b.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_72d2b.dir/CheckSymbolExists.cxx.o -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘F_FULLFSYNC’ was not declared in this scope
+    8 |   return ((int*)(&F_FULLFSYNC))[argc];
+      |                   ^~~~~~~~~~~
+make[1]: *** [CMakeFiles/cmTC_72d2b.dir/build.make:66: CMakeFiles/cmTC_72d2b.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_72d2b/fast] Error 2
+
+
+File /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_617b9/fast && /usr/bin/make -f CMakeFiles/cmTC_617b9.dir/build.make CMakeFiles/cmTC_617b9.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_617b9.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CLANG_THREAD_SAFETY -Werror   -std=c++11 -o CMakeFiles/cmTC_617b9.dir/src.cxx.o -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx:2:34: error: ‘lockable’ attribute directive ignored [-Werror=attributes]
+    2 | struct __attribute__((lockable)) Lock {
+      |                                  ^~~~
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx:3:59: error: ‘exclusive_lock_function’ attribute directive ignored [-Werror=attributes]
+    3 |   void Acquire() __attribute__((exclusive_lock_function()));
+      |                                                           ^
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx:4:51: error: ‘unlock_function’ attribute directive ignored [-Werror=attributes]
+    4 |   void Release() __attribute__((unlock_function()));
+      |                                                   ^
+/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.cxx:8:46: error: ‘guarded_by’ attribute directive ignored [-Werror=attributes]
+    8 |   int data_ __attribute__((guarded_by(lock_)));
+      |                                              ^
+cc1plus: all warnings being treated as errors
+make[1]: *** [CMakeFiles/cmTC_617b9.dir/build.make:66: CMakeFiles/cmTC_617b9.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_617b9/fast] Error 2
+
+
+Source file was:
+
+struct __attribute__((lockable)) Lock {
+  void Acquire() __attribute__((exclusive_lock_function()));
+  void Release() __attribute__((unlock_function()));
+};
+struct ThreadSafeType {
+  Lock lock_;
+  int data_ __attribute__((guarded_by(lock_)));
+};
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b24df/fast && /usr/bin/make -f CMakeFiles/cmTC_b24df.dir/build.make CMakeFiles/cmTC_b24df.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b24df.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=c11 -o CMakeFiles/cmTC_b24df.dir/src.c.o   -c /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b24df
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b24df.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_b24df.dir/src.c.o  -o cmTC_b24df 
+/usr/bin/ld: CMakeFiles/cmTC_b24df.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b24df.dir/build.make:87: cmTC_b24df] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b24df/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b6bcf/fast && /usr/bin/make -f CMakeFiles/cmTC_b6bcf.dir/build.make CMakeFiles/cmTC_b6bcf.dir/build
+make[1]: Entering directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6bcf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=c11 -o CMakeFiles/cmTC_b6bcf.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6bcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6bcf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b6bcf.dir/CheckFunctionExists.c.o  -o cmTC_b6bcf  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_b6bcf.dir/build.make:87: cmTC_b6bcf] Error 1
+make[1]: Leaving directory '/home/suresh/CBDC/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_b6bcf/fast] Error 2
+
+
+

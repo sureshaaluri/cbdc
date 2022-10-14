@@ -1,0 +1,2 @@
+/usr/bin/ar qc libatomizer.a  CMakeFiles/atomizer.dir/atomizer.o CMakeFiles/atomizer.dir/block.o CMakeFiles/atomizer.dir/state_machine.o CMakeFiles/atomizer.dir/format.o CMakeFiles/atomizer.dir/messages.o
+/usr/bin/ranlib libatomizer.a

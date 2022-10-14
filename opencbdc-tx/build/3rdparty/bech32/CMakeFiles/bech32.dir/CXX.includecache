@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../3rdparty/bech32/bech32.h
+stdint.h
+-
+string
+-
+vector
+-
+
+../3rdparty/bech32/util/vector.h
+initializer_list
+-
+type_traits
+-
+vector
+-
+
+/home/suresh/CBDC/opencbdc-tx/3rdparty/bech32/bech32.cpp
+bech32.h
+-
+util/vector.h
+-
+assert.h
+-
+

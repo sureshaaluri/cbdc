@@ -1,0 +1,2 @@
+/usr/bin/ar qc libshard.a  CMakeFiles/shard.dir/shard.o CMakeFiles/shard.dir/controller.o
+/usr/bin/ranlib libshard.a

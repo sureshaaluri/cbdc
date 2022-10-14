@@ -1,0 +1,2 @@
+/usr/bin/ar qc libserialization.a  CMakeFiles/serialization.dir/format.o CMakeFiles/serialization.dir/buffer_serializer.o CMakeFiles/serialization.dir/size_serializer.o CMakeFiles/serialization.dir/stream_serializer.o CMakeFiles/serialization.dir/istream_serializer.o CMakeFiles/serialization.dir/ostream_serializer.o
+/usr/bin/ranlib libserialization.a

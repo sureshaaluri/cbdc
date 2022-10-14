@@ -1,0 +1,2 @@
+/usr/bin/ar qc libarchiver.a  CMakeFiles/archiver.dir/client.o CMakeFiles/archiver.dir/controller.o
+/usr/bin/ranlib libarchiver.a

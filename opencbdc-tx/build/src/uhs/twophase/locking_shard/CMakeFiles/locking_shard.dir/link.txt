@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblocking_shard.a  CMakeFiles/locking_shard.dir/client.o CMakeFiles/locking_shard.dir/controller.o CMakeFiles/locking_shard.dir/locking_shard.o CMakeFiles/locking_shard.dir/interface.o CMakeFiles/locking_shard.dir/format.o CMakeFiles/locking_shard.dir/messages.o CMakeFiles/locking_shard.dir/state_machine.o CMakeFiles/locking_shard.dir/status_client.o CMakeFiles/locking_shard.dir/status_server.o
+/usr/bin/ranlib liblocking_shard.a

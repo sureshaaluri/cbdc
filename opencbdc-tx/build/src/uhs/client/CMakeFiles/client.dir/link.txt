@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclient.a  CMakeFiles/client.dir/atomizer_client.o CMakeFiles/client.dir/client.o CMakeFiles/client.dir/twophase_client.o
+/usr/bin/ranlib libclient.a
