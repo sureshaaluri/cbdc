@@ -41,12 +41,12 @@ function Mint() {
         <h1>Mint</h1>
         <form method="post" >
         <div className="form-group mt-5">
-            <label>N Outputs:</label>
-            <input type="number" className="form-control" onChange={MintDetailsInput} placeholder="Enter N Outputs" name="nOutputs" />
+            <label>UTXOs Input:</label>
+            <input type="number" className="form-control" onChange={MintDetailsInput} placeholder="Enter UTXOs Input" name="nOutputs" />
             </div>
             <div className="form-group mt-3">
-            <label>Output Value:</label>
-            <input type="number" className="form-control" onChange={MintDetailsInput} placeholder="Enter Output Value" name="outputValue" />
+            <label>Atomic Units:</label>
+            <input type="number" className="form-control" onChange={MintDetailsInput} placeholder="Enter Atomic Units" name="outputValue" />
             </div>
             <div className="form-group mt-3">
             <label>Mempool(eg:mempool0.dat):</label>

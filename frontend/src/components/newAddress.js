@@ -39,7 +39,7 @@ function NewAddress() {
         <div className='col-md-4'></div>
         <div className='col-md-4'>
         <div className='container mt-5'>
-        <h1>Create New Address</h1>
+        <h1>Create New Wallet</h1>
         <form method="post" >
         <div className="form-group mt-5">
             <label>Mempool(eg:mempool1.dat):</label>

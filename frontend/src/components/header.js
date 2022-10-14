@@ -23,7 +23,7 @@ function Header() {
         <Link className="nav-link fw-bold text-white" to="/balance">Balance</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link fw-bold text-white" to="/newAddress">New-Address</Link>
+        <Link className="nav-link fw-bold text-white" to="/newAddress">New Wallet</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="/sendCurrency">Send-Amount</Link>
