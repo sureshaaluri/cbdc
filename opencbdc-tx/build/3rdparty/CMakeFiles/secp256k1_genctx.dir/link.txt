@@ -1,1 +1,0 @@
-/usr/bin/cc -g  --coverage CMakeFiles/secp256k1_genctx.dir/secp256k1/src/gen_context.c.o  -o secp256k1_genctx  -lstdc++fs 

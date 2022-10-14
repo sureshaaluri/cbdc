@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsentinel.a  CMakeFiles/sentinel.dir/controller.o CMakeFiles/sentinel.dir/server.o
-/usr/bin/ranlib libsentinel.a

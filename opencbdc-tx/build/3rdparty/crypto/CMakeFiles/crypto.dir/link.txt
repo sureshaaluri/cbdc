@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcrypto.a  CMakeFiles/crypto.dir/sha256_avx2.o CMakeFiles/crypto.dir/sha256_shani.o CMakeFiles/crypto.dir/sha256_sse4.o CMakeFiles/crypto.dir/sha256_sse41.o CMakeFiles/crypto.dir/sha256.o CMakeFiles/crypto.dir/siphash.o
-/usr/bin/ranlib libcrypto.a

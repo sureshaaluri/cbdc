@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsentinel_2pc.a  CMakeFiles/sentinel_2pc.dir/controller.o CMakeFiles/sentinel_2pc.dir/server.o
-/usr/bin/ranlib libsentinel_2pc.a

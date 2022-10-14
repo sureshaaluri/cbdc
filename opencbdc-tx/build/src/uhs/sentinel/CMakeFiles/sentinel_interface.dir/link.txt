@@ -1,2 +1,0 @@
-/usr/bin/ar qc libsentinel_interface.a  CMakeFiles/sentinel_interface.dir/format.o CMakeFiles/sentinel_interface.dir/client.o CMakeFiles/sentinel_interface.dir/interface.o
-/usr/bin/ranlib libsentinel_interface.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc librpc.a  CMakeFiles/rpc.dir/format.o
-/usr/bin/ranlib librpc.a

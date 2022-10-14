@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcoordinator.a  CMakeFiles/coordinator.dir/format.o CMakeFiles/coordinator.dir/state_machine.o CMakeFiles/coordinator.dir/client.o CMakeFiles/coordinator.dir/distributed_tx.o CMakeFiles/coordinator.dir/controller.o CMakeFiles/coordinator.dir/server.o
-/usr/bin/ranlib libcoordinator.a

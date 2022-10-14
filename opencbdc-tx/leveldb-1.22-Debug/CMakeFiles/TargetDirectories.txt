@@ -1,8 +1,0 @@
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/install/strip.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/install/local.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/install.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/list_install_components.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/rebuild_cache.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/leveldbutil.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/edit_cache.dir
-/home/suresh/CBDC/CBDCUI/cbdc/opencbdc-tx/leveldb-1.22-Debug/CMakeFiles/leveldb.dir
