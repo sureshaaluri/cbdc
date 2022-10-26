@@ -1,2 +1,0 @@
-Checks: '-cppcoreguidelines-*,-readability-magic-numbers,-readability-function-cognitive-complexity,-modernize-use-trailing-return-type'
-InheritParentConfig: true
