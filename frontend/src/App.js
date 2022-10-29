@@ -9,11 +9,15 @@ import Login from './components/login';
 import Receiver from './components/checkReceive';
 import Header from './components/header';
 import NewAddress from './components/newAddress';
+import SendCurrencyBkup from './components/sendCurrency-bkup';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { userInfoContext } from "./components/userContext";
 
 
 function App() {
+  const [userToken, setuserToken] =   React.useState(); 
   return (
+    <userInfoContext.Provider value={{userToken, setuserToken}}>
       <Router>
       <Header />
         <Switch>
@@ -26,8 +30,10 @@ function App() {
           <Route exact path="/login"><Login /></Route> 
           <Route exact path="/register"><Registration /></Route> 
           <Route exact path="/newAddress"><NewAddress /></Route> 
+          <Route exact path="/SendCurrencyBkup"><SendCurrencyBkup /></Route> 
         </Switch>
       </Router>
+      </userInfoContext.Provider>
   );
 }
 

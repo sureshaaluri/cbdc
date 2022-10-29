@@ -1,31 +1,31 @@
 import React, { useState } from 'react';
 
-function NewAddress() {
+function SendCurrencyBkup() {
 
-  const [AddressDetails, setAddressDetails] = useState();
+  const [getCurrencyDetails, setCurrencyDetails] = useState();
   const [resultDetails, setresultDetails] = useState();
 
   let name,value;
-  function AddressDetailsInput(event){
+  function currencyDetails(event){
           name = event.target.name;
           value = event.target.value;
-          setAddressDetails({
-            ...AddressDetails,
+          setCurrencyDetails({
+            ...getCurrencyDetails,
             [name] : value
         })
       }
       
   const BalanceSubmit = async (e)=>{
     e.preventDefault();
-        const {name, mempool, wallet} = AddressDetails;
-        // alert(mempool + wallet)
-        const res = await fetch("http://localhost:4000/newAddress",{
+        const {currency, accAddr,mempool,wallet} = getCurrencyDetails;
+        // alert(currency + accAddr)
+        const res = await fetch("http://localhost:4000/sendCurrency",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"
             },
             body:  JSON.stringify({
-                name, mempool, wallet
+                currency, accAddr,mempool,wallet
             })
         })
     
@@ -39,24 +39,28 @@ function NewAddress() {
         <div className='col-md-4'></div>
         <div className='col-md-4'>
         <div className='container mt-5'>
-        <h2>Service Provider</h2>
+        <h1>Send Amount</h1>
         <form method="post" >
         <div className="form-group mt-5">
-            <label>Name:</label>
-            <input type="text" className="form-control" onChange={AddressDetailsInput} placeholder="Enter Name" name="name" />
-            </div>
-        <div className="form-group mt-3">
-            <label>Mempool(eg:mempool1.dat):</label>
-            <input type="string" className="form-control" onChange={AddressDetailsInput} placeholder="Enter Mempool" name="mempool" />
+            <label>Currency:</label>
+            <input type="number" className="form-control" onChange={currencyDetails} placeholder="Enter Currency" name="currency" />
             </div>
             <div className="form-group mt-3">
-            <label>Wallet(eg:wallet1.dat):</label>
-            <input type="string" className="form-control" onChange={AddressDetailsInput} placeholder="Enter Wallet" name="wallet" />
+            <label>To Account Address:</label>
+            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Account Address" name="accAddr" />
+            </div>
+            <div className="form-group mt-3">
+            <label>From Account Mempool(eg:mempool0.dat):</label>
+            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Mempool" name="mempool" />
+            </div>
+            <div className="form-group mt-3">
+            <label>From Account Wallet(eg:wallet0.dat):</label>
+            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Wallet" name="wallet" />
             </div>
             <div className="row mt-3">
                 <div className="col-md-4"></div>
                 <div className="col-md-4">
-                    <button type="submit" onClick={BalanceSubmit} className="btn btn-primary">Create</button>
+                    <button type="submit" onClick={BalanceSubmit} className="btn btn-primary">Send</button>
                 </div>
             </div>
         </form>
@@ -75,4 +79,4 @@ function NewAddress() {
      );
 }
 
-export default NewAddress;
+export default SendCurrencyBkup;

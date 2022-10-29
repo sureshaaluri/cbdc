@@ -3,7 +3,6 @@ import {useHistory} from 'react-router-dom';
 
 function Login() {
   const history = useHistory();
-  const [userToken,setUserToken] = useState("");
   const [UserDetails, setUserDetails] = useState({
     username : "",
     password : ""
@@ -35,8 +34,7 @@ function Login() {
         
     })
     const data = await res.json();
-    // console.log(data.UserDetails._id);
-    
+   
     if(res.status === 422 || !data )
     {
         window.alert("Fill all the fields");
@@ -44,10 +42,12 @@ function Login() {
         window.alert("Login Details Incorrect");
         history.push("/login");
     }else{
-      window.alert("Login Successfully");
-      setUserToken(data);
-    //   alert(userToken);
-      history.push("/mint");
+        if(data.token){
+            
+            window.alert("Login Successfully");
+            history.push({ pathname: '/mint', state: {token: data.token }});
+        }
+      
       
     }
   }

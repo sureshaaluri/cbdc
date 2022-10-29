@@ -1,10 +1,24 @@
 import React, { useState } from 'react';
+import { userInfoContext } from "./userContext";
+import { useLocation} from 'react-router-dom';
 
 function Mint() {
 
   const [MintDetails, setMintDetails] = useState();
   const [resultDetails, setresultDetails] = useState();
+  let {userToken,setuserToken}       =   React.useContext(userInfoContext);
 
+  var location        =   useLocation();
+  React.useEffect( () => {
+           
+    if(location.state){
+
+            setuserToken(location.state.token)
+            
+    }
+  },[]);
+
+// console.log("userToken "+userToken)
   let name,value;
   function MintDetailsInput(event){
           name = event.target.name;
@@ -14,10 +28,10 @@ function Mint() {
             [name] : value
         })
       }
-      
+    //   console.log(MintDetails);
   const Mint = async (e)=>{
     e.preventDefault();
-        const {nOutputs, outputValue,mempool,wallet} = MintDetails;
+        const {name, slt_pat_agent, nOutputs, outputValue,mempool,wallet} = MintDetails;
         // alert(nOutputs + outputValue)
         const res = await fetch("http://localhost:4000/mint",{
             method:"POST",
@@ -25,7 +39,7 @@ function Mint() {
                 "Content-Type" : "application/json"
             },
             body:  JSON.stringify({
-                nOutputs, outputValue,mempool,wallet
+                name, slt_pat_agent,nOutputs, outputValue,mempool,wallet
             })
         })
     
@@ -38,9 +52,21 @@ function Mint() {
         <div className='col-md-4'></div>
         <div className='col-md-4'>
         <div className='container mt-5'>
-        <h1>Mint</h1>
+        <h2>Patient Insurance Agent Accounts</h2>
         <form method="post" >
         <div className="form-group mt-5">
+            <label>Select:</label>
+            <select className="form-control" onChange={MintDetailsInput} name="slt_pat_agent">
+            <option value="">Select</option>
+            <option value="patient">Patient</option>
+            <option value="insurance_agent">Insurance Agent</option>
+            </select>
+            </div>
+            <div className="form-group mt-3">
+            <label>Name:</label>
+            <input type="text" className="form-control" onChange={MintDetailsInput} placeholder="Enter Name" name="name" />
+            </div>
+            <div className="form-group mt-3">
             <label>UTXOs Input:</label>
             <input type="number" className="form-control" onChange={MintDetailsInput} placeholder="Enter UTXOs Input" name="nOutputs" />
             </div>
