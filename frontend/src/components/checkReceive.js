@@ -20,7 +20,7 @@ function Receiver() {
     e.preventDefault();
         const {mempool, wallet, importinput} = BalanceDetails;
         alert(mempool + wallet +importinput)
-        const res = await fetch("http://localhost:4000/receiverBlnCheck",{
+        const res = await fetch("/api/receiverBlnCheck",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"

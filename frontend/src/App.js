@@ -9,7 +9,7 @@ import Login from './components/login';
 import Receiver from './components/checkReceive';
 import Header from './components/header';
 import NewAddress from './components/newAddress';
-import SendCurrencyBkup from './components/sendCurrency-bkup';
+import SendCurrencyBkup from './components/sendCurrency-bkup1';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { userInfoContext } from "./components/userContext";
 

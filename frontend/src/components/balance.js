@@ -19,7 +19,7 @@ function Balance() {
     e.preventDefault();
         const {mempool, wallet} = BalanceDetails;
         // alert(mempool + wallet)
-        const res = await fetch("http://localhost:4000/balance",{
+        const res = await fetch("/api/balance",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"

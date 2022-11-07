@@ -7,7 +7,7 @@ function About() {
 //   const AboutRes = async (e)=>{
 //     e.preventDefault();
        
-//         const res = await fetch("http://localhost:4000/about",{
+//         const res = await fetch("/api/about",{
 //             method:"get"})
 //         const data = await res.json();
 //         setData(data.message);
@@ -17,91 +17,91 @@ function About() {
 
   const Exploit = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/exploit",{method:"get"})
+    const res = await fetch("/api/exploit",{method:"get"})
        const data = await res.json();
         setData(JSON.stringify(data));
   }
 
   const Images = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/images",{method:"get"})
+    const res = await fetch("/api/images",{method:"get"})
     const data = await res.json();
         setData(JSON.stringify(data));
   }
 
   const Ps = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/ps",{method:"get"})
+    const res = await fetch("/api/ps",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const Network = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/network",{method:"get"}) 
+    const res = await fetch("/api/network",{method:"get"}) 
     const data = await res.json();
     setData(JSON.stringify(data));
   }
   
   const Inspect = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/inspect",{method:"get"})
+    const res = await fetch("/api/inspect",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const Search = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/search",{method:"get"})
+    const res = await fetch("/api/search",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const LoginSuccess = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/loginSuccess",{method:"get"})
+    const res = await fetch("/api/loginSuccess",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const LoginFail = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/loginFail",{method:"get"})
+    const res = await fetch("/api/loginFail",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
   
   const Pull = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/pullLatest",{method:"get"})
+    const res = await fetch("/api/pullLatest",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const PullVersion = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/pullVersion",{method:"get"})
+    const res = await fetch("/api/pullVersion",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const Pullfake = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/pullfake",{method:"get"})
+    const res = await fetch("/api/pullfake",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const Push = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/push",{method:"get"})
+    const res = await fetch("/api/push",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }
 
   const PushFake = async (e)=>{
     e.preventDefault();
-    const res = await fetch("http://localhost:4000/pushFake",{method:"get"})
+    const res = await fetch("/api/pushFake",{method:"get"})
     const data = await res.json();
     setData(JSON.stringify(data));
   }

@@ -19,7 +19,7 @@ function SendCurrencyBkup() {
     e.preventDefault();
         const {currency, accAddr,mempool,wallet} = getCurrencyDetails;
         // alert(currency + accAddr)
-        const res = await fetch("http://localhost:4000/sendCurrency",{
+        const res = await fetch("/api/sendCurrency",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"

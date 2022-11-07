@@ -33,7 +33,7 @@ function Mint() {
     e.preventDefault();
         const {name, slt_pat_agent, nOutputs, outputValue,mempool,wallet} = MintDetails;
         // alert(nOutputs + outputValue)
-        const res = await fetch("http://localhost:4000/mint",{
+        const res = await fetch("/api/mint",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"

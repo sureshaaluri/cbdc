@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Select from 'react-select';
 
 function SendCurrency() {
 
   const [getCurrencyDetails, setCurrencyDetails] = useState();
   const [resultDetails, setresultDetails] = useState();
   const [ProviderDetails, setProviderDetails] = useState([{}]);
-  const [PatientDetails, setPatientDetails] = useState([{}]);
-  const [InsuranceDetails, setInsuranceDetails] = useState([{}]);
 
   let name,value;
   function currencyDetails(event){
@@ -18,7 +15,7 @@ function SendCurrency() {
             [name] : value
         })
       }
-console.log("getCurrencyDetails "+JSON.stringify(getCurrencyDetails));
+
       useEffect(() => {
         async function provInfo() {
 
@@ -27,22 +24,14 @@ console.log("getCurrencyDetails "+JSON.stringify(getCurrencyDetails));
             // console.log('info',res);
             setProviderDetails(res.data)
 
-            let PatientInfo    =   await fetch("/api/getPatient");
-            let Patientres         =   await PatientInfo.json();
-            // console.log('info',res);
-            setPatientDetails(Patientres.data)
-
-            let InsuranceInfo    =   await fetch("/api/getInsuranceAgent");
-            let Insuranceres         =   await InsuranceInfo.json();
-            // console.log('info',res);
-            setInsuranceDetails(Insuranceres.data)
         }
 
         provInfo();
         
     },[])
 
-    
+    // console.log("ProviderDetails "+JSON.stringify(ProviderDetails));
+
   const BalanceSubmit = async (e)=>{
     e.preventDefault();
         const {currency, toAccAddr,accAddr_patient,mempool_patient,wallet_patient,accAddr_InsAgent,mempool_InsAgent,wallet_InsAgent,amount_per_ins,amount_per_pat} = getCurrencyDetails;
@@ -58,7 +47,7 @@ console.log("getCurrencyDetails "+JSON.stringify(getCurrencyDetails));
         })
 
         const data = await res.json();
-        // console.log(data);
+        console.log(data);
         setresultDetails(JSON.stringify(data));
         // console.log("resultDetails"+resultDetails);
   }
@@ -96,62 +85,46 @@ console.log("getCurrencyDetails "+JSON.stringify(getCurrencyDetails));
             <div className='col-md-4'>
             <h4>Patient Details:</h4>
             <div className="form-group mt-3">
-            {/* <label>Patient Account Address:</label>
-            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Account Address" name="accAddr_patient" /> */}
-            <label>Patient:</label>
-            
-            <Select name="accAddr_patient" onChange={(selectedGroup) => 
-        {setCurrencyDetails({...getCurrencyDetails, accAddr_patient: selectedGroup.value})}}
-            
-        options={PatientDetails.map(PatientDetail => ({label: PatientDetail.name +" - "+ PatientDetail.AccountAddress , value: PatientDetail.AccountAddress+"-"+PatientDetail.mempool+"-"+PatientDetail.wallet}))}
-      />
-
-            
+            <label>Patient Account Address:</label>
+            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Account Address" name="accAddr_patient" />
             </div>
             <div className="form-group mt-3">
             <label>Amount Percentage:</label>
             <input type="number" className="form-control" onChange={currencyDetails} placeholder="Enter Amount Percentage" name="amount_per_pat" />
             </div>
-            {/* <div className="form-group mt-3">
+            <div className="form-group mt-3">
             <label>From Account Mempool:</label>
             <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Mempool" name="mempool_patient" />
             </div>
             <div className="form-group mt-3">
             <label>From Account Wallet:</label>
             <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Wallet" name="wallet_patient" />
-            </div> */}
+            </div>
             </div>
             <div className='col-md-4'>
             <h4>Insurance Agent Details:</h4>
             <div className="form-group mt-3">
             <label>Payor Account Address:</label>
-            <Select name="accAddr_InsAgent" onChange={(selectedGroup) => 
-                {setCurrencyDetails({...getCurrencyDetails, accAddr_InsAgent: selectedGroup.value})}}
-                    
-                options={InsuranceDetails.map(InsuranceDetail => ({label: InsuranceDetail.name +" - "+ InsuranceDetail.AccountAddress , value: InsuranceDetail.AccountAddress+"-"+InsuranceDetail.mempool+"-"+InsuranceDetail.wallet}))}
-            />
-
-            {/* 
-            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Account Address" name="accAddr_InsAgent" /> */}
+            <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Account Address" name="accAddr_InsAgent" />
             </div>
             <div className="form-group mt-3">
             <label>Amount Percentage:</label>
             <input type="number" className="form-control" onChange={currencyDetails} placeholder="Enter Amount Percentage" name="amount_per_ins" />
             </div>
-            {/* <div className="form-group mt-3">
+            <div className="form-group mt-3">
             <label>From Account Mempool:</label>
             <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Mempool" name="mempool_InsAgent" />
             </div>
             <div className="form-group mt-3">
             <label>From Account Wallet:</label>
             <input type="string" className="form-control" onChange={currencyDetails} placeholder="Enter Wallet" name="wallet_InsAgent" />
-            </div> */}
+            </div>
             </div>
             </div>
             
             
             <div className="row mt-3">
-                <div className="col-md-5"></div>
+                <div className="col-md-4"></div>
                 <div className="col-md-4">
                     <button type="submit" onClick={BalanceSubmit} className="btn btn-primary">Send</button>
                 </div>

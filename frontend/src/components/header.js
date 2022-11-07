@@ -50,9 +50,9 @@ async function logout(){
         <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="/sendCurrency">Patient Bill Payment</Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="/receiverCheck">Check-Receiver-Amount</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="" onClick={logout}>LOGOUT</Link>
         </li>

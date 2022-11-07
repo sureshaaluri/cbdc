@@ -19,7 +19,7 @@ function NewAddress() {
     e.preventDefault();
         const {name, mempool, wallet} = AddressDetails;
         // alert(mempool + wallet)
-        const res = await fetch("http://localhost:4000/newAddress",{
+        const res = await fetch("/api/newAddress",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"

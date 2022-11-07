@@ -22,7 +22,7 @@ function Login() {
     e.preventDefault();
     const {username,password} = UserDetails;
     
-    const res = await fetch("http://localhost:4000/login",{
+    const res = await fetch("/api/login",{
         method:"POST",
         headers:{
             "Content-Type" : "application/json"

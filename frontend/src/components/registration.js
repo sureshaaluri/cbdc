@@ -19,7 +19,7 @@ function Registration() {
     e.preventDefault();
         const {username,firstname,lastname,password} = UserDetails;
         
-        const res = await fetch("http://localhost:4000/register",{
+        const res = await fetch("/api/register",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"
