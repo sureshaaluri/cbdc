@@ -92,5 +92,19 @@ router.get("/getProvider", function (req, res) {
     // return getProviderData
 });
 
+router.get("/getPatient", function (req, res) {
+    const getPatientData = Account.find({role : "patient"},function(err,getData){
+        // console.log("getData "+getData);
+        return res.status(201).send({'data':getData});
+    })
+});
+
+router.get("/getInsuranceAgent", function (req, res) {
+    const getInsuranceData = Account.find({role : "insurance_agent"},function(err,getData){
+        // console.log("getData "+getData);
+        return res.status(201).send({'data':getData});
+    })
+});
+
 
 module.exports = router;

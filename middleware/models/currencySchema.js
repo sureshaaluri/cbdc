@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const CurrencySchema = new mongoose.Schema({
     currency:String,
     toAccAddr:String,
-    accAddr_patient:String,
+    patient_AccountAddress:String,
     mempool_patient:String,
     wallet_patient:String,
-    accAddr_InsAgent:String,
+    InsAgent_AccountAddress:String,
     mempool_InsAgent:String,
     wallet_InsAgent:String,
     patient_importinput :String,

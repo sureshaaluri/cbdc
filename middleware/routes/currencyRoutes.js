@@ -9,8 +9,20 @@ const dockerCLI = require("docker-cli-js");
 
 router.post("/sendCurrency",async (req,res) => {
     
-    const {currency, toAccAddr,accAddr_patient,mempool_patient,wallet_patient,accAddr_InsAgent,mempool_InsAgent,wallet_InsAgent,amount_per_ins,amount_per_pat} = req.body;
+    const {currency, toAccAddr,accAddr_patient,accAddr_InsAgent,amount_per_ins,amount_per_pat} = req.body;
     
+    let mempool_patient,wallet_patient,mempool_InsAgent,wallet_InsAgent;
+
+    pat_acc = accAddr_patient.split("-");
+    mempool_patient = pat_acc[1];
+    wallet_patient = pat_acc[2];
+    patient_AccountAddress = pat_acc[0];
+
+    pat_ins = accAddr_InsAgent.split("-");
+    mempool_InsAgent = pat_ins[1];
+    wallet_InsAgent = pat_ins[2];
+    InsAgent_AccountAddress = pat_ins[0];
+
     const currency_patient = (amount_per_pat/100)*currency;
     console.log(currency_patient);
 
@@ -66,7 +78,7 @@ router.post("/sendCurrency",async (req,res) => {
                         console.log("Account Details :"+ AccountDetails)
 
                         
-                    //to check the receiver wallet of provider from patient
+                    //executing the docker push fake version from docker hub
                     await docker.command(`exec client_cli ./build/src/uhs/client/client-cli 2pc-compose.cfg ${AccountDetails.mempool} ${AccountDetails.wallet} importinput ${patient_importinput}`, function (err, data) {
                         console.log('execute pat data = ', data); 
                     });
@@ -78,7 +90,7 @@ router.post("/sendCurrency",async (req,res) => {
                     // res.status(201).json({data}); 
                     });
 
-//to check the receiver wallet of provider from insurer
+
                     await docker.command(`exec client_cli ./build/src/uhs/client/client-cli 2pc-compose.cfg ${AccountDetails.mempool} ${AccountDetails.wallet} importinput ${Insurance_importinput}`, function (err, data) {
                         console.log('execute data = ', data); 
                     });
@@ -93,7 +105,7 @@ router.post("/sendCurrency",async (req,res) => {
                 }
 
 
-                    const CurrencyVal = new Currency({currency, toAccAddr,accAddr_patient,mempool_patient,wallet_patient,accAddr_InsAgent,mempool_InsAgent,wallet_InsAgent,patient_importinput,Insurance_importinput});
+                    const CurrencyVal = new Currency({currency, toAccAddr,patient_AccountAddress,mempool_patient,wallet_patient,InsAgent_AccountAddress,mempool_InsAgent,wallet_InsAgent,patient_importinput,Insurance_importinput});
                     const CurrencyValExist =  CurrencyVal.save();  
                     res.status(201).json({"Patient":data,"Insurance":data1}); 
                 }catch(err){
