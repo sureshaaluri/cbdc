@@ -1,3 +1,11 @@
+# CBDC
+
+Refer the below github repo README.md instructions to start the network
+
+```terminal
+https://github.com/sureshaaluri/opencbdc-tx.git 
+```
+
 # Middleware
 
 Open the new tab in terminal and follow the instructions below
