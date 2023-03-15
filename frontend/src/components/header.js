@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link , useHistory} from 'react-router-dom';
 import { userInfoContext } from "./userContext";
 
 function Header() {
   let history = useHistory();
   let { userToken, setuserToken } = React.useContext(userInfoContext);
-
+  
   React.useEffect( () => {
 
     // if userToken not exists redirecting to Login Form 
@@ -25,10 +25,14 @@ async function logout(){
 
  
 }
-    
+
   return (
     <div className="App">
-    {userToken ? <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div style={{backgroundColor:"#c00",padding:"1%"}}></div>
+    {userToken ? 
+     <>
+    
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       <span className="navbar-toggler-icon"></span>
@@ -39,16 +43,19 @@ async function logout(){
         <Link className="nav-link fw-bold text-white" to="/about">All Sample Buttons</Link>
         </li> */}
         <li className="nav-item">
-        <Link className="nav-link fw-bold text-white" to="/mint">Mint</Link>
+        <Link className="nav-link fw-bold text-white" to="/mint">Users</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link fw-bold text-white" to="/balance">Balance</Link>
+        <Link className="nav-link fw-bold text-white" to="/balance">Check Balance</Link>
         </li>
         <li className="nav-item">
-        <Link className="nav-link fw-bold text-white" to="/newAddress">New Wallet</Link>
+        <Link className="nav-link fw-bold text-white" to="/newAddress">Provider</Link>
         </li>
         <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="/sendCurrency">Patient Bill Payment</Link>
+        </li>
+        <li className="nav-item">
+        <Link className="nav-link fw-bold text-white" to="/addWallet">Add Balance</Link>
         </li>
         {/* <li className="nav-item">
         <Link className="nav-link fw-bold text-white" to="/receiverCheck">Check-Receiver-Amount</Link>
@@ -60,10 +67,13 @@ async function logout(){
       
     </div>
   </div>
-</nav> : null}
+</nav> 
+</>
+: null}
     
 
     </div>
+    
   );
 }
 

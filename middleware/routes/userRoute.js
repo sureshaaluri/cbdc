@@ -5,16 +5,19 @@ const router = express.Router();
 const cors = require("cors");
 router.use(cors());
 const dockerCLI = require("docker-cli-js");
+const md5 = require('md5');
 
 router.post("/register",async(req,res)=>{
+    
     const {username,firstname,lastname,password} = req.body;
+    const hashPassword = md5(password);
     // console.log("firstname " +firstname +lastname)
     if(!firstname || !lastname || !password || !username)
     {
         return res.status(422).json({error:"Please fill the fields"});
     }
     try{
-            const user = new User({username,firstname,lastname,password});
+            const user = new User({username,firstname,lastname,password:hashPassword});
            const userExist = await user.save();
           
         res.status(201).json({message:"user register successfully"});

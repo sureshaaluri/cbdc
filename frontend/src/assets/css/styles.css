@@ -1,0 +1,23 @@
+.inputFiled{
+    background-color:#ebebe0;
+}
+/* .pageBody{
+   margin:10% 5%;
+   padding:10% 3%;
+   background-color:#e6f0ff;
+    position:relative;
+} */
+
+#footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+
+.pageBody{
+    margin:3% 25% 7% 25%;
+    padding: 3%;
+   background-color:#e6f0ff;
+    position:relative;
+}

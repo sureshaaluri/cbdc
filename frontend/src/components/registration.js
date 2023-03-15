@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {useHistory} from 'react-router-dom';
 
 function Registration() {
+    const API_URL = process.env.REACT_APP_API_MID_URL
   const history = useHistory();
   const [UserDetails, setUserDetails] = useState({})
 
@@ -19,7 +20,7 @@ function Registration() {
     e.preventDefault();
         const {username,firstname,lastname,password} = UserDetails;
         
-        const res = await fetch("/api/register",{
+        const res = await fetch(API_URL+"/register",{
             method:"POST",
             headers:{
                 "Content-Type" : "application/json"
@@ -39,39 +40,45 @@ function Registration() {
   }
   
   return (
-    <div style={{paddingTop:"6%"}}>
+    <div className="pageBody">
+    <div className="row col-md-12 mt-2">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    <h3>REGISTER</h3>
+                </div>
+            </div>
         <form method="post" >
-        <div className="row mt-3">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+        <div className="row col-md-12 mt-3">
+        <div className="col-md-2"></div>
+                <div className="col-md-8">
                     <label>User Name:</label>
-                    <input type="text" className="form-control" id="username" onChange={RegisterInput} placeholder="Enter User Name" name="username" autoComplete="off" />
+                    <input type="text" className="inputFiled form-control" id="username" onChange={RegisterInput} placeholder="Enter User Name" name="username" autoComplete="off" />
                 </div>
             </div>
-            <div className="row mt-3">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+            <div className="row col-md-12 mt-3">
+            <div className="col-md-2"></div>
+                <div className="col-md-8">
                     <label>First Name:</label>
-                    <input type="text" className="form-control" id="firstname" onChange={RegisterInput} placeholder="Enter First Name" name="firstname" autoComplete="off" />
+                    <input type="text" className="inputFiled form-control" id="firstname" onChange={RegisterInput} placeholder="Enter First Name" name="firstname" autoComplete="off" />
                 </div>
             </div>
-            <div className="row mt-3">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+            <div className="row col-md-12 mt-3">
+            <div className="col-md-2"></div>
+                <div className="col-md-8">
                     <label>Last Name:</label>
-                    <input type="text" className="form-control" id="lastname" onChange={RegisterInput} placeholder="Enter Last Name" name="lastname" autoComplete="off" />
+                    <input type="text" className="inputFiled form-control" id="lastname" onChange={RegisterInput} placeholder="Enter Last Name" name="lastname" autoComplete="off" />
                 </div>
             </div>
-            <div className="row mt-3">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+            <div className="row col-md-12 mt-3">
+            <div className="col-md-2"></div>
+                <div className="col-md-8">
                     <label>Password:</label>
-                    <input type="password" className="form-control" id="password" onChange={RegisterInput} placeholder="Enter Password" name="password" autoComplete="off" />
+                    <input type="password" className="inputFiled form-control" id="password" onChange={RegisterInput} placeholder="Enter Password" name="password" autoComplete="off" />
                 </div>
             </div>
-            <div className="row mt-3">
-                <div className="col-md-4"></div>
-                <div className="col-md-4">
+            <div className="row col-md-12 mt-3">
+            <div className="col-md-2"></div>
+                <div className="col-md-8">
                     <button type="submit" onClick={Register} className="btn btn-primary">Submit</button>
                 </div>
             </div>

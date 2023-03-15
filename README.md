@@ -1,10 +1,41 @@
-# CBDC
+# AWS
 
-Refer the below github repo README.md instructions to start the network
+1. Install the nginx by using the below command to view the frontend application in the browser
 
 ```terminal
-https://github.com/sureshaaluri/opencbdc-tx.git 
+# sudo apt install nginx (Only for AWS)
 ```
+
+# DataBase
+
+1. Start the MongoDB compass in local machine, Use the below command to start the MongoDB
+
+Windows
+
+```terminal
+# mongod
+```
+
+Linux
+
+```terminal
+# systemctl start mongod
+```
+
+2.  Please follow the reference link below if MongoDB is not available in your machine
+
+Windows
+
+```terminal
+https://medium.com/@LondonAppBrewery/how-to-download-install-mongodb-on-windows-4ee4b3493514
+```
+
+Linux
+
+```terminal
+https://www.geeksforgeeks.org/how-to-install-and-configure-mongodb-in-ubuntu/
+```
+
 
 # Middleware
 

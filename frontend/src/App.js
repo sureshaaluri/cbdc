@@ -9,9 +9,12 @@ import Login from './components/login';
 import Receiver from './components/checkReceive';
 import Header from './components/header';
 import NewAddress from './components/newAddress';
-import SendCurrencyBkup from './components/sendCurrency-bkup1';
+import MSG from './components/successMsg';
+import AddWallet from './components/addWallet';
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { userInfoContext } from "./components/userContext";
+import Footer from './components/footer';
 
 
 function App() {
@@ -30,8 +33,11 @@ function App() {
           <Route exact path="/login"><Login /></Route> 
           <Route exact path="/register"><Registration /></Route> 
           <Route exact path="/newAddress"><NewAddress /></Route> 
-          <Route exact path="/SendCurrencyBkup"><SendCurrencyBkup /></Route> 
+          <Route exact path="/msg"><MSG /></Route>
+          <Route exact path="/addWallet"><AddWallet /></Route>
+          
         </Switch>
+        <Footer />
       </Router>
       </userInfoContext.Provider>
   );
